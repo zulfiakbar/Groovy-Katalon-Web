@@ -54,12 +54,12 @@ class login {
 	public void user_click_masuk_button() {
 		WebUI.click(findTestObject('Page_SecondHand/button_Masuk'))
 	}
-	
+
 	@And("User is on login page")
 	public void user_is_on_login_page() {
 		WebUI.verifyElementVisible(findTestObject('Page_Login/header_SecondHandLogin'))
 	}
-	
+
 	@And("User input {string} into the EMAIL field")
 	public void user_input_email_into_the_email_field(String email) {
 		WebUI.setText(findTestObject('Page_Login/inputfield_Email'), email)
@@ -73,5 +73,10 @@ class login {
 	@And("User clik LOGIN button")
 	public void user_clik_login_button() {
 		WebUI.click(findTestObject('Page_Login/button_MasukLogin'))
+	}
+
+	@And("User close browser")
+	public void user_close_browser() {
+		WebUI.closeBrowser()
 	}
 }
