@@ -44,34 +44,43 @@ import cucumber.api.java.en.When
 
 
 
-class login {
-	@Given("User is on SecondHand web")
-	public void user_is_on_secondhand_web() {
+class productList {
+	@Given("the user is on the Home page")
+	public void the_user_is_on_the_Home_page() {
 		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/header_BannerBulanRamadhan'))
 	}
 
-	@When("User click MASUK button")
-	public void user_click_masuk_button() {
-		WebUI.click(findTestObject('Page_SecondHand/button_Masuk'))
+	@And("User scroll down")
+	public void user_scroll_down() {
+		WebUI.scrollToElement(findTestObject('Page_SecondHand/button_Next'), 1)
 	}
 
-	@And("User is on login page")
-	public void user_is_on_login_page() {
-		WebUI.verifyElementVisible(findTestObject('Page_Login/header_SecondHandLogin'))
+	@And("User click on NEXT button")
+	public void user_click_on_NEXT_button() {
+		WebUI.click(findTestObject('Page_SecondHand/button_Next'))
 	}
 
-	@And("User input {string} into the EMAIL field")
-	public void user_input_email_into_the_email_field(String email) {
-		WebUI.setText(findTestObject('Page_Login/inputfield_Email'), email)
+	@Then("User see the product")
+	public void user_see_the_product() {
+		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/header_BannerBulanRamadhan'))
+		
+	}
+	@Given("the user is on the Home page two")
+	public void the_user_is_on_the_Home_page_two() {
+		WebUI.navigateToUrl('https://secondhand.binaracademy.org/?page=2');
 	}
 
-	@And("User input {string} into the PASSWORD field")
-	public void user_input_password_into_the_password_field(String password) {
-		WebUI.setText(findTestObject('Page_Login/inputfield_Password'), password)
+	@And("User click on PREVIOUS button")
+	public void user_click_on_PREVIOUS_button() {
+		WebUI.click(findTestObject('Page_SecondHand/button_Previous'))
 	}
 
-	@And("User clik LOGIN button")
-	public void user_clik_login_button() {
-		WebUI.click(findTestObject('Page_Login/button_MasukLogin'))
+	@And("User click click on HOBI button in TELUSURI KATEGORI section")
+	public void user_click_click_on_HOBI_button_in_TELUSURI_KATEGORI_section() {
+		WebUI.click(findTestObject('Page_SecondHand/button_CtgHobi'))
+	}
+
+	@Then("Verify that product list is shown based HOBI categories")
+	public void verify_that_product_list_is_shown_based_HOBI_caategories() {
 	}
 }
