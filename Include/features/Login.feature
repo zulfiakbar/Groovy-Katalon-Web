@@ -2,9 +2,12 @@
 
 Feature: Login
 
-	@LoginWithStandardUser
-	Scenario: User login with standard user
-		Given User is on login page
-		And User input username "standard_user"
-		And User input password "secret_sauce"
-		And User clik button login
+	@LoginWithRegisteredUser
+	Scenario: User login with registered user
+		Given User is on SecondHand web
+		When User click MASUK button
+		And User is on login page
+		And User input "erlangga@mailinator.com" into the EMAIL field
+		And User input "Test1234" into the PASSWORD field
+		And User clik LOGIN button
+		Then User is on SecondHand web
