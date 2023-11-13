@@ -47,6 +47,9 @@ import cucumber.api.java.en.When
 class login {
 	@Given("User is on SecondHand web")
 	public void user_is_on_secondhand_web() {
+		WebUI.openBrowser('');
+		WebUI.maximizeWindow();
+		WebUI.navigateToUrl('https://secondhand.binaracademy.org/');
 		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/header_BannerBulanRamadhan'))
 	}
 
@@ -75,8 +78,4 @@ class login {
 		WebUI.click(findTestObject('Page_Login/button_MasukLogin'))
 	}
 
-	@And("User close browser")
-	public void user_close_browser() {
-		WebUI.closeBrowser()
-	}
 }
