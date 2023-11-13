@@ -23,7 +23,7 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.When
 import internal.GlobalVariable
 
-<<<<<<< HEAD
+
 class Profile {
 
 
@@ -38,7 +38,7 @@ class Profile {
 	public void user_input_into_the_NamaProfile_field(String string) {
 		// Write code here that turns the phrase above into concrete actions
 		//	throw new PendingException();
-=======
+
 class editProduct {
 	@Given("User click Image field and select image file to upload")
 	public void user_click_Image_field_and_select_image_file_to_upload() {
@@ -49,46 +49,66 @@ class editProduct {
 	@When("User input {string} into the NamaProfile field")
 	public void user_input_into_the_NamaProfile_field(String string) {
 		WebUI.setText(findTestObject('Page_Profile/inputfield_NamaProfile'), NamaProfile)
->>>>>>> bfb2f7893c65a27a1c85b7f720a0839371217014
+
 	}
 
 	@And("User select {string} into the PilihKotaProfile field")
 	public void user_select_into_the_PilihKotaProfile_field(String string) {
-<<<<<<< HEAD
+
 		// Write code here that turns the phrase above into concrete actions
 		//	throw new PendingException();
-=======
+
 		WebUI.setText(findTestObject('Page_Profile/select_PilihKotaProfile'), PilihKotaProfile)
->>>>>>> bfb2f7893c65a27a1c85b7f720a0839371217014
+
+class editProduct {
+	@Given("User click Image field and select image file to upload")
+	public void user_click_Image_field_and_select_image_file_to_upload() {
+		WebUI.clickImage(findTestObject('Page_Profile/image_Profile'))
+		
+	}
+
+	@When("User input {string} into the NamaProfile field")
+	public void user_input_into_the_NamaProfile_field(String string) {
+		WebUI.setText(findTestObject('Page_Profile/inputfield_NamaProfile'), NamaProfile)
+	}
+
+	@And("User select {string} into the PilihKotaProfile field")
+	public void user_select_into_the_PilihKotaProfile_field(String string) {
+		WebUI.setText(findTestObject('Page_Profile/select_PilihKotaProfile'), PilihKotaProfile)
+
 	}
 
 	@And("User input {string} into the AlamatProfile field")
 	public void user_input_into_the_AlamatProfile_field(String string) {
-<<<<<<< HEAD
+
 		// Write code here that turns the phrase above into concrete actions
 		//	throw new PendingException();
-=======
+
 		WebUI.setText(findTestObject('Page_Profile/inputfield_AlamatProfile'), AlamatProfile)
->>>>>>> bfb2f7893c65a27a1c85b7f720a0839371217014
-	}
+
+		WebUI.setText(findTestObject('Page_Profile/inputfield_AlamatProfile'), AlamatProfile)
+
 
 	@And("User input {string} into the No HandphoneProfile field")
 	public void user_input_into_the_No_HandphoneProfile_field(String string) {
-<<<<<<< HEAD
+
 		// Write code here that turns the phrase above into concrete actions
 		//	throw new PendingException();
-=======
+
 		WebUI.setText(findTestObject('Page_Profile/inputfield_No HandphoneProfile'), No HandphoneProfile)
->>>>>>> bfb2f7893c65a27a1c85b7f720a0839371217014
+
+		WebUI.setText(findTestObject('Page_Profile/inputfield_No HandphoneProfile'), No HandphoneProfile)
+
 	}
 
 	@And("User click on SimpanProfile button")
 	public void user_click_on_SimpanProfile_button() {
-<<<<<<< HEAD
-		// Write code here that turns the phrase above into concrete actions
-		//	throw new PendingException();
-=======
+
+
 		WebUI.click(findTestObject('Page_Profile/button_SimpanProfile'))
->>>>>>> bfb2f7893c65a27a1c85b7f720a0839371217014
+
+
+		WebUI.click(findTestObject('Page_Profile/button_SimpanProfile'))
+
 	}
 }
