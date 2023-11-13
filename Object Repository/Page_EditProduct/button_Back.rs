@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_MyNotification</name>
+   <name>button_Back</name>
    <tag></tag>
-   <elementGuidId>1d8bc31d-d643-4488-a0b8-eba1f831db0c</elementGuidId>
+   <elementGuidId>3aa46469-03ba-4417-9572-451cc354f286</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div/button/i</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>i.bi.bi-arrow-left.fs-5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>44a7a644-ab46-44e4-adf9-6b0e4695f429</webElementGuid>
+      <webElementGuid>f471cf93-cf57-4f23-baa0-42da02c597c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bi bi-arrow-left fs-5</value>
-      <webElementGuid>b2095d18-754f-4888-8826-401c605ffae2</webElementGuid>
+      <webElementGuid>35856b64-5346-4cf4-b91f-56be0e4c96dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,30 +38,14 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container container-sm position-relative&quot;]/div[@class=&quot;position-absolute top-0 start-0 translate-middle&quot;]/button[@class=&quot;btn btn-link&quot;]/i[@class=&quot;bi bi-arrow-left fs-5&quot;]</value>
-      <webElementGuid>fc248c3a-3e1f-4a4f-9fab-c3bef2735743</webElementGuid>
+      <webElementGuid>7c3cdb4e-d439-443b-acfb-38d6bd2e5263</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/button/i</value>
-      <webElementGuid>9af4da2d-b82d-49a3-885c-9d0a6e7a4472</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='navbarSupportedContent']/div/ul/li[2]/a/i</value>
-      <webElementGuid>b2b47bcc-a73e-4c46-b8bb-2f360be66827</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//li[2]/a/i</value>
-      <webElementGuid>aa80dca0-d435-4645-a81c-e8c60ecb7885</webElementGuid>
+      <value>//i</value>
+      <webElementGuid>549b48fd-6e9b-40db-8f75-444ca04da76d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

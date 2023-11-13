@@ -3,15 +3,15 @@
    <description></description>
    <name>button_MyNotification</name>
    <tag></tag>
-   <elementGuidId>1d8bc31d-d643-4488-a0b8-eba1f831db0c</elementGuidId>
+   <elementGuidId>f12dcb24-e8e4-4b73-b679-933de73cd9c4</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div/button/i</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>i.bi.bi-arrow-left.fs-5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/button/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>44a7a644-ab46-44e4-adf9-6b0e4695f429</webElementGuid>
+      <webElementGuid>a9a0a0de-67ba-4e35-a23c-f49a665b121f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bi bi-arrow-left fs-5</value>
-      <webElementGuid>b2095d18-754f-4888-8826-401c605ffae2</webElementGuid>
+      <webElementGuid>4a24d271-865e-4920-a9a2-5c2f2835341a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container container-sm position-relative&quot;]/div[@class=&quot;position-absolute top-0 start-0 translate-middle&quot;]/button[@class=&quot;btn btn-link&quot;]/i[@class=&quot;bi bi-arrow-left fs-5&quot;]</value>
-      <webElementGuid>fc248c3a-3e1f-4a4f-9fab-c3bef2735743</webElementGuid>
+      <webElementGuid>5bbf3725-db99-4e23-825b-28dbb7ebda55</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/button/i</value>
-      <webElementGuid>9af4da2d-b82d-49a3-885c-9d0a6e7a4472</webElementGuid>
+      <webElementGuid>693b4a90-7b7f-4f49-9990-ab7a68be2882</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarSupportedContent']/div/ul/li[2]/a/i</value>
-      <webElementGuid>b2b47bcc-a73e-4c46-b8bb-2f360be66827</webElementGuid>
+      <webElementGuid>223dcdff-189b-41c8-9bd3-84a9d0c49057</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +62,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a/i</value>
-      <webElementGuid>aa80dca0-d435-4645-a81c-e8c60ecb7885</webElementGuid>
+      <webElementGuid>2b6c2b8a-eb76-4a98-a0fb-c06d1ba3b341</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

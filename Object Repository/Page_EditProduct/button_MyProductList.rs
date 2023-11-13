@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Profile</name>
+   <name>button_MyProductList</name>
    <tag></tag>
-   <elementGuidId>3689f313-a0a2-4a20-a2f4-cdfb023bc82a</elementGuidId>
+   <elementGuidId>feef91f0-54f2-4a4f-bfef-eff72e664d9e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='navbarSupportedContent']/div/ul/li[6]/a/i</value>
+         <key>CSS</key>
+         <value>i.bi.bi-list-ul.me-4.me-lg-0</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>a.nav-link.dropdown-toggle.d-flex.align-items-center > i.bi.bi-person.me-4.me-lg-0</value>
+         <key>XPATH</key>
+         <value>//div[@id='navbarSupportedContent']/div/ul/li/a/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,38 +22,38 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>85ede3d2-e649-4233-8fb0-5ab2bde8128b</webElementGuid>
+      <webElementGuid>75897c5b-e3a1-4233-b16b-4b50ed6e13e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>bi bi-person me-4 me-lg-0</value>
-      <webElementGuid>b7073b21-f866-4d1d-988e-c2e99965e554</webElementGuid>
+      <value>bi bi-list-ul me-4 me-lg-0</value>
+      <webElementGuid>661b9d56-d9c3-452a-9688-4a1fffddc417</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item dropdown fs-5 d-none d-lg-block&quot;]/a[@class=&quot;nav-link dropdown-toggle d-flex align-items-center&quot;]/i[@class=&quot;bi bi-person me-4 me-lg-0&quot;]</value>
-      <webElementGuid>38d438e7-8c06-4c3a-aae2-0194adf4763b</webElementGuid>
+      <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item me-0 me-lg-2 fs-5&quot;]/a[@class=&quot;nav-link d-flex align-items-center&quot;]/i[@class=&quot;bi bi-list-ul me-4 me-lg-0&quot;]</value>
+      <webElementGuid>8008495f-aa42-4d61-9c9f-5260fd37b9a7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='navbarSupportedContent']/div/ul/li[6]/a/i</value>
-      <webElementGuid>7c0fa2b0-7f08-4b43-9a40-52881adf1624</webElementGuid>
+      <value>//div[@id='navbarSupportedContent']/div/ul/li/a/i</value>
+      <webElementGuid>603ad333-1cc3-4f60-aaf3-d66a69c24d80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[6]/a/i</value>
-      <webElementGuid>73b6a0b7-f954-468e-bed1-8fa5dc4173c9</webElementGuid>
+      <value>//a/i</value>
+      <webElementGuid>0cf0d86a-3f14-4848-b2c8-c4d9815ac024</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

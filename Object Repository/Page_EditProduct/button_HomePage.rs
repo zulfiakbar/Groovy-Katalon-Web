@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_HomePage</name>
+   <tag></tag>
+   <elementGuidId>fae45ad8-4362-425c-a760-b932ab4d8c12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.navbar-brand.px-5.py-3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(@href, '/')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1eaf6be1-2e98-4423-895e-855f7b291f12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navbar-brand px-5 py-3</value>
+      <webElementGuid>1392dce3-3486-4c96-8899-ceca15f9ba8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/</value>
+      <webElementGuid>403e1b8d-e3fc-4828-b0f2-3d3e9fb30090</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/nav[@class=&quot;navbar navbar-expand-lg navbar-light bg-white shadow fixed-top&quot;]/div[@class=&quot;container&quot;]/a[@class=&quot;navbar-brand px-5 py-3&quot;]</value>
+      <webElementGuid>6aba40b4-1b57-4eaf-a63e-4ce027b9ec63</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/')]</value>
+      <webElementGuid>9eb21bfc-114d-49ee-91e5-38be09978626</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>2b5b359a-ba43-4b3b-becf-3b41f842bcc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/']</value>
+      <webElementGuid>c781cde8-3958-4bc6-9846-1b86fa03b241</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
