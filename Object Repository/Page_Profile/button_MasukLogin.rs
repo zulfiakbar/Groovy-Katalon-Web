@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>inputfield_Cari</name>
+   <name>button_MasukLogin</name>
    <tag></tag>
-   <elementGuidId>08d611fb-49bd-4c19-bf64-062e6e8ee3a8</elementGuidId>
+   <elementGuidId>21082cc3-cdc7-4004-9694-e85c437ae951</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='q']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@name = 'q' and @type = 'search' and @placeholder = 'Cari di sini ...']</value>
+         <value>//input[@name='commit']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;q&quot;]</value>
+         <value>input[name=&quot;commit&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>f924c315-32af-4b6d-a401-ae4b75037cb0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>q</value>
-      <webElementGuid>06936810-e6e5-4d4a-8c73-6ac9289309c3</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control bg-transparent border-0 form-search</value>
-      <webElementGuid>580f3a83-a352-49cc-b455-28a91567e265</webElementGuid>
+      <webElementGuid>8dd6572c-570f-497e-8719-93f6c7586825</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>search</value>
-      <webElementGuid>74a4ff25-aca1-4ee9-8c47-cc8b64b877e5</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>8577ce6d-8061-449b-9ffa-1c9947fbd4e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>name</name>
       <type>Main</type>
-      <value>Cari di sini ...</value>
-      <webElementGuid>440f931e-3501-4563-9a19-bfda8e0a22d9</webElementGuid>
+      <value>commit</value>
+      <webElementGuid>93e046de-622a-4a03-be9a-d99edaef0bbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
+      <name>value</name>
       <type>Main</type>
-      <value>Search</value>
-      <webElementGuid>91924d77-1668-47bd-b820-b4247b0e95f7</webElementGuid>
+      <value>Masuk</value>
+      <webElementGuid>cbe2caa5-dfd9-49da-90eb-ca6c6722e2d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary w-100 rounded-4 p-3 fw-bold</value>
+      <webElementGuid>55a24bb9-ab8a-4e98-acd3-078f3e22b2a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-disable-with</name>
+      <type>Main</type>
+      <value>Masuk</value>
+      <webElementGuid>93ffdcbc-a408-4118-bbd4-7a1c26d85384</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;navbarSupportedContent&quot;)/form[@class=&quot;d-flex ms-0 ms-lg-4 my-4 my-lg-0&quot;]/div[@class=&quot;input-group rounded-pill bg-light p-1 search&quot;]/input[@class=&quot;form-control bg-transparent border-0 form-search&quot;]</value>
-      <webElementGuid>cdf23938-11d9-4978-bbaf-e389c7c7a7f3</webElementGuid>
+      <value>id(&quot;new_user&quot;)/div[@class=&quot;actions&quot;]/input[@class=&quot;btn btn-primary w-100 rounded-4 p-3 fw-bold&quot;]</value>
+      <webElementGuid>c9e16d23-244a-404a-97c9-f6d7039e731e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='q']</value>
-      <webElementGuid>eb1fe42e-033b-49cb-8d81-caec720813f3</webElementGuid>
+      <value>//input[@name='commit']</value>
+      <webElementGuid>f7007694-ec3e-4f11-bf9e-bd048dc3fe8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='navbarSupportedContent']/form/div/input</value>
-      <webElementGuid>7a641fdf-6d1d-46ba-b126-93eee523b27b</webElementGuid>
+      <value>//form[@id='new_user']/div[3]/input</value>
+      <webElementGuid>7eb415d4-99eb-4c42-8c76-ae433b5baea9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>b64bd05d-b058-46ed-8db4-fff9ab5bddca</webElementGuid>
+      <value>//div[3]/input</value>
+      <webElementGuid>f1fec41f-2578-48e5-b2d6-db913b976fd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'q' and @type = 'search' and @placeholder = 'Cari di sini ...']</value>
-      <webElementGuid>33ccb169-623a-427b-96d3-223893234c99</webElementGuid>
+      <value>//input[@type = 'submit' and @name = 'commit']</value>
+      <webElementGuid>47d1b906-e09b-4c9e-afe0-b0398a73457f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

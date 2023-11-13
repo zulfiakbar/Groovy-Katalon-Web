@@ -17,6 +17,7 @@ import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import org.openqa.selenium.Keys as Keys
 
 import internal.GlobalVariable
 
@@ -81,5 +82,21 @@ class productList {
 
 	@Then("Verify that product list is shown based HOBI categories")
 	public void verify_that_product_list_is_shown_based_HOBI_caategories() {
+		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/button_CtgHobi'))
+	}
+
+	@And("User input {string} into Search field")
+	public void user_input_into_Search_field(String search) {
+		WebUI.setText(findTestObject('Page_SecondHand/inputfield_Cari'), search)
+	}
+
+	@And("User press ENTER on keyboard to perform search")
+	public void user_press_ENTER_on_keyboard_to_perform_search() {
+		WebUI.sendKeys(findTestObject('Page_SecondHand/inputfield_Cari'), Keys.chord(Keys.ENTER))
+	}
+
+	@Then("Verify that product list is shown based on LAPTOP which inputted in search field")
+	public void verify_that_product_list_is_shown_based_on_LAPTOP_which_inputted_in_search_field() {
+		WebUI.scrollToElement(findTestObject('Page_SecondHand/button_CtgHobi'), 1)
 	}
 }
