@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "6E6A130754881CAA3EAF667EE9915F29",
+  "keywordFileContentHash": "0E3C37D7E6617C62A405CFB9CBCB8C0A",
   "keywordClasses": [
     {
       "name": "stepDefinition.Profile",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
