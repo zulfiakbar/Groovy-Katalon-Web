@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_MyNotification</name>
+   <tag></tag>
+   <elementGuidId>1d8bc31d-d643-4488-a0b8-eba1f831db0c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.bi.bi-bell.me-4.me-lg-0</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbarSupportedContent']/div/ul/li[2]/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>c987ff14-391e-45ec-8475-c4679b032180</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bi bi-bell me-4 me-lg-0</value>
+      <webElementGuid>e7bd8c24-2f2d-41e4-824f-08c5ec7d929b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item me-0 me-lg-2 fs-5 d-block d-xl-none position-relative&quot;]/a[@class=&quot;nav-link d-flex align-items-center&quot;]/i[@class=&quot;bi bi-bell me-4 me-lg-0&quot;]</value>
+      <webElementGuid>e27a5779-c693-44a3-bede-3bef6de4c1cd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navbarSupportedContent']/div/ul/li[2]/a/i</value>
+      <webElementGuid>b2b47bcc-a73e-4c46-b8bb-2f360be66827</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a/i</value>
+      <webElementGuid>aa80dca0-d435-4645-a81c-e8c60ecb7885</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

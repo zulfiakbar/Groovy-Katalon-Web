@@ -19,33 +19,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import cucumber.api.java.en.And
-import cucumber.api.java.en.Given
-import cucumber.api.java.en.When
 import internal.GlobalVariable
 
-public class ProductDetail {
+public class MyProductList {
 	
-	@When("User scroll down to product list")
-	public void user_scroll_down_to_product_list() {
-		WebUI.clickImage(findTestObject('Page_SecondHand/img_Produk01'))
+	@And("User is on my product list page")
+	public void user_is_on_my_product_list_page() {
+		WebUI.verifyElementVisible(findTestObject('Page_MyProductList/header_DaftarJualSaya'))
 	}
 	
-	@When("User click first product card")
-	public void user_click_first_product_card() {
-		WebUI.scrollToElement(findTestObject('Page_SecondHand/header_HargaProduk01'), 1)
-		WebUI.scrollToElement(findTestObject('Page_SecondHand/img_Produk01'), 1)
-		WebUI.click(findTestObject('Page_SecondHand/header_NamaProduk01'))
-		
-	}
-	
-	@And("User is on product detail page")
-	public void user_is_on_product_detail_page() {
-		WebUI.verifyElementVisible(findTestObject('Page_ProductDetail/txt_NamaProduk'))
-	}
-	
-	@And("User click MY PRODUCT LIST button")
-	public void user_click_my_product_list_button() {
-		WebUI.click(findTestObject('Page_SecondHand/button_MyProductList'))
+	@And("User click my first product")
+	public void user_click_my_first_product() {
+		WebUI.scrollToElement(findTestObject('Page_MyProductList/header_HargaProduk01'), 1)
+		WebUI.scrollToElement(findTestObject('Page_MyProductList/img_Produk01'), 1)
+		WebUI.click(findTestObject('Page_MyProductList/header_NamaProduk01'))
 	}
 	
 }
