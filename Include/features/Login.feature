@@ -11,9 +11,9 @@ Feature: Login
 		And User input "Test1234" into the PASSWORD field
 		And User clik LOGIN button
 		Then User is on SecondHand web
-		And User cick PROFILE button
-		And User click KELUAR button
-		
+#		And User cick PROFILE button
+#		And User click KELUAR button
+
 	@LoginWithUnregisteredEmailUser
 	Scenario: User login with unregistered email user
 		Given User is on SecondHand web
@@ -23,7 +23,6 @@ Feature: Login
 		And User input "Test1234" into the PASSWORD field
 		And User clik LOGIN button
 		Then User is on login page
-		And User close browser
 		
 	@LoginWithBlankEmail
 	Scenario: User login with unregistered email user

@@ -47,6 +47,9 @@ import cucumber.api.java.en.When
 class login {
 	@Given("User is on SecondHand web")
 	public void user_is_on_secondhand_web() {
+		WebUI.openBrowser('');
+		WebUI.maximizeWindow();
+		WebUI.navigateToUrl('https://secondhand.binaracademy.org/');
 		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/header_BannerBulanRamadhan'))
 	}
 
