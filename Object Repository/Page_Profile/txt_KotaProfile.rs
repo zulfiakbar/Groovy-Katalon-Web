@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Kota</name>
+   <name>txt_KotaProfile</name>
    <tag></tag>
    <elementGuidId>fa8e858e-532e-4409-9b06-4868eb0b0fb4</elementGuidId>
    <selectorCollection>

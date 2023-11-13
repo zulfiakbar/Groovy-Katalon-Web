@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Back_to_HomePage</name>
+   <name>button_HomePage</name>
    <tag></tag>
    <elementGuidId>6e8ab9dc-8847-456b-82a3-123b7b4f570b</elementGuidId>
    <selectorCollection>

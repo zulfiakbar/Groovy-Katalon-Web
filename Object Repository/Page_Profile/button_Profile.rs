@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>icon_Profile</name>
+   <name>button_Profile</name>
    <tag></tag>
    <elementGuidId>3689f313-a0a2-4a20-a2f4-cdfb023bc82a</elementGuidId>
    <selectorCollection>

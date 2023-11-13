@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>edit_Profile_Image</name>
+   <name>image_Profile</name>
    <tag></tag>
    <elementGuidId>ab0b2065-8a73-4737-b6bc-7ef5e1bea082</elementGuidId>
    <selectorCollection>

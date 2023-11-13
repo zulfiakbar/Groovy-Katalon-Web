@@ -63,7 +63,6 @@ class productList {
 	@Then("User see the product")
 	public void user_see_the_product() {
 		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/header_BannerBulanRamadhan'))
-		
 	}
 	@Given("the user is on the Home page two")
 	public void the_user_is_on_the_Home_page_two() {

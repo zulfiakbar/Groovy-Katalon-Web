@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Alamat</name>
+   <name>inputfield_AlamatProfile</name>
    <tag></tag>
    <elementGuidId>4766d0cb-099c-4d62-a3be-403a626c8209</elementGuidId>
    <selectorCollection>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_simpan</name>
+   <name>button_SimpanProfile</name>
    <tag></tag>
    <elementGuidId>4a870fb5-f355-4f2f-90e3-bfa642985ecd</elementGuidId>
    <selectorCollection>

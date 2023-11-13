@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>header_SecondHandLogin</name>
+   <name>header_Lengkapi Info Akun</name>
    <tag></tag>
-   <elementGuidId>24bd4d2c-f3e8-480d-a60b-f3b6903d3142</elementGuidId>
+   <elementGuidId>da859f1c-dd03-4e66-8a55-229c9a0bac82</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/preceding::h1[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Signed in successfully.'])[1]/preceding::div[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>h1.display-5.fw-bold.text-white.align-self-center.p-5</value>
+         <value>div.fs-6.fw-bold.text-center.position-absolute.top-50.start-50.translate-middle</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,71 +21,77 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
-      <webElementGuid>40a25204-917d-4605-aae8-2b352a0b5dde</webElementGuid>
+      <value>div</value>
+      <webElementGuid>0ba24209-8753-4a26-b079-49f37afeba59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>display-5 fw-bold text-white align-self-center p-5</value>
-      <webElementGuid>2938184a-91c3-442b-a466-cc57f59995d0</webElementGuid>
+      <value>fs-6 fw-bold text-center position-absolute top-50 start-50 translate-middle</value>
+      <webElementGuid>391faf3a-444e-4fc7-8205-619810960a73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>SecondHand.</value>
-      <webElementGuid>8ca093cf-9ea6-467d-9bbc-1098eba65898</webElementGuid>
+      <value>
+        Lengkapi Info Akun
+      </value>
+      <webElementGuid>f1485924-d0cc-4094-98b9-01761eca5fdc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;container-fluid min-height-100vh&quot;]/div[@class=&quot;row min-height-100vh w-100&quot;]/div[@class=&quot;col-6 session-background d-flex&quot;]/h1[@class=&quot;display-5 fw-bold text-white align-self-center p-5&quot;]</value>
-      <webElementGuid>c5ed1f07-3312-419f-b54e-2e7b9eba112e</webElementGuid>
+      <value>/html[1]/body[1]/nav[@class=&quot;navbar navbar-expand-lg navbar-light bg-white shadow fixed-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;fs-6 fw-bold text-center position-absolute top-50 start-50 translate-middle&quot;]</value>
+      <webElementGuid>1179bba4-9a21-4c7d-a137-2920fbe072a7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/preceding::h1[1]</value>
-      <webElementGuid>268cbb61-1141-4977-9041-481fcb4ce2cb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signed in successfully.'])[1]/preceding::div[1]</value>
+      <webElementGuid>4fb2067f-e176-417d-92a9-055a2a91a73a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::h1[1]</value>
-      <webElementGuid>1bd933d2-1be8-4e65-8aba-5d13dbfdfeda</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama'])[1]/preceding::div[6]</value>
+      <webElementGuid>d6c0694f-10cd-4f13-bb41-e9da0524672e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Second']/parent::*</value>
-      <webElementGuid>96592cb0-f358-45ae-8b10-3f818ad38d1e</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Lengkapi Info Akun']/parent::*</value>
+      <webElementGuid>49534016-6fb6-4c2d-b3dc-984d898dadea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h1</value>
-      <webElementGuid>c7c7fbac-15cf-4e61-866f-412321f032b3</webElementGuid>
+      <value>//div/div</value>
+      <webElementGuid>b92581bc-3c07-4d26-9bcc-b2af39a49fba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h1[(text() = 'SecondHand.' or . = 'SecondHand.')]</value>
-      <webElementGuid>8a6d864b-8c43-4270-b274-30417e42a7c5</webElementGuid>
+      <value>//div[(text() = '
+        Lengkapi Info Akun
+      ' or . = '
+        Lengkapi Info Akun
+      ')]</value>
+      <webElementGuid>3dff663a-a217-455b-9c4d-d29ed65faac9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

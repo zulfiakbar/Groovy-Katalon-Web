@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Pilih Kota</name>
+   <name>select_PilihKotaProfile</name>
    <tag></tag>
    <elementGuidId>e70b71ac-0855-41e6-9248-dbb18a423371</elementGuidId>
    <selectorCollection>

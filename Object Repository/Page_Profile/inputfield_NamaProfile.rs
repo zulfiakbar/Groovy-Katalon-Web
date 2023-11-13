@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Nama</name>
+   <name>inputfield_NamaProfile</name>
    <tag></tag>
    <elementGuidId>f8fca003-559b-4625-9539-c81a925d26b1</elementGuidId>
    <selectorCollection>
