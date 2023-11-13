@@ -78,8 +78,4 @@ class login {
 		WebUI.click(findTestObject('Page_Login/button_MasukLogin'))
 	}
 
-	@And("User close browser")
-	public void user_close_browser() {
-		WebUI.closeBrowser()
-	}
 }
