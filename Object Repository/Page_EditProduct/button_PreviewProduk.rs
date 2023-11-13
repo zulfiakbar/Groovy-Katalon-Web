@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Kota</name>
+   <name>button_PreviewProduk</name>
    <tag></tag>
-   <elementGuidId>fa8e858e-532e-4409-9b06-4868eb0b0fb4</elementGuidId>
+   <elementGuidId>5381fa0f-691e-4582-a161-94f1c911d1cb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama'])[1]/following::label[1]</value>
+         <key>CSS</key>
+         <value>label.btn.btn-outline-primary.w-50.rounded-4.p-3</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[2]/following::label[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,94 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>b7a49551-82cd-4e22-b804-9161a83b565c</webElementGuid>
+      <webElementGuid>5a22692b-0213-462e-a779-e362665e1954</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-label</value>
-      <webElementGuid>9961457d-6268-4b62-9783-96d7bb4d273c</webElementGuid>
+      <value>btn btn-outline-primary w-50 rounded-4 p-3</value>
+      <webElementGuid>dbc078ef-4baf-4b39-8d8a-81b99671250c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
-      <value>user_city_id</value>
-      <webElementGuid>54e66646-cc56-4d2c-9b4b-048fb33b5f57</webElementGuid>
+      <value>product_status_draft</value>
+      <webElementGuid>8f53ef79-a895-49b0-b48a-d47e7e54c4f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Kota</value>
-      <webElementGuid>7dc0c13e-0c53-484a-8e5d-b558a5dc5b0b</webElementGuid>
+      <value>Preview</value>
+      <webElementGuid>f93c8554-cc1f-4969-84db-227b2213c859</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container container-sm position-relative&quot;]/section[@class=&quot;row mt-5&quot;]/div[@class=&quot;col-11&quot;]/form[1]/div[@class=&quot;mb-4&quot;]/label[@class=&quot;form-label&quot;]</value>
-      <webElementGuid>5199f325-aa8c-421a-a6bd-7ea68de95251</webElementGuid>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container container-sm position-relative&quot;]/section[@class=&quot;row mt-5&quot;]/div[@class=&quot;col-11&quot;]/form[1]/div[@class=&quot;mb-4 d-flex gap-5&quot;]/label[@class=&quot;btn btn-outline-primary w-50 rounded-4 p-3&quot;]</value>
+      <webElementGuid>61e2f3ee-bc24-453f-ae97-8cba5dbe4134</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama'])[1]/following::label[1]</value>
-      <webElementGuid>77707ce7-0c9e-48ff-83ca-cafe063c5db6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[2]/following::label[1]</value>
+      <webElementGuid>152978cb-e718-4eb0-a78f-f29e5153ec73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signed in successfully.'])[1]/following::label[2]</value>
-      <webElementGuid>e39e7e3d-e531-4747-a4f1-035e70c7e3f4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::label[1]</value>
+      <webElementGuid>e0a83645-08ec-4451-8974-314ef44d5e22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat'])[1]/preceding::label[1]</value>
-      <webElementGuid>33951a1b-8bd2-4d10-bfc4-314162e72c41</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terbitkan'])[1]/preceding::label[1]</value>
+      <webElementGuid>60131eb4-05b7-4558-b0d8-3cc96dc14e22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jl. Kaliurang'])[1]/preceding::label[2]</value>
-      <webElementGuid>62ab5555-0cc5-4dfe-96ff-2735ab1003a6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Kota']/parent::*</value>
-      <webElementGuid>d43285d3-0d50-4ce6-8475-026e37e501c9</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Preview']/parent::*</value>
+      <webElementGuid>ada729da-f8c5-458b-b474-c4862b401f37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/label</value>
-      <webElementGuid>d4e646e1-6c3c-4fe8-865c-45d460eaa080</webElementGuid>
+      <value>//div[6]/label</value>
+      <webElementGuid>39a62e06-178c-4a9a-a86d-f74ac1d44541</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//label[(text() = 'Kota' or . = 'Kota')]</value>
-      <webElementGuid>d06f55e6-a87f-428e-becc-f5079432be57</webElementGuid>
+      <value>//label[(text() = 'Preview' or . = 'Preview')]</value>
+      <webElementGuid>5a840557-c8fb-4b46-b4e7-0e7ab6168f87</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

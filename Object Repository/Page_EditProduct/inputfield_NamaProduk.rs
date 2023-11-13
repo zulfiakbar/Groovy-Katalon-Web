@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_No Handphone</name>
+   <name>inputfield_NamaProduk</name>
    <tag></tag>
-   <elementGuidId>cccac11f-404a-436d-89e4-cb2c33616cbf</elementGuidId>
+   <elementGuidId>3bd1cf4e-92fb-4531-ab13-f2bcd718bca7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='user_phone_number']</value>
+         <key>CSS</key>
+         <value>#product_name</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#user_phone_number</value>
+         <key>XPATH</key>
+         <value>//input[@id='product_name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>eae3599f-9c84-47a1-9904-a58a78daa083</webElementGuid>
+      <webElementGuid>7636bfad-d697-4541-b84c-15549360aa16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control rounded-4 p-3</value>
-      <webElementGuid>b5cb1abf-d93d-4fcb-ad8f-bf42b5746197</webElementGuid>
+      <webElementGuid>fa5c0d29-5814-4bdf-b8a3-6c4218037dfc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>contoh: +628123456789</value>
-      <webElementGuid>ab6a1528-a3b3-45ac-8d80-4c09550d55dc</webElementGuid>
+      <value>Nama Produk</value>
+      <webElementGuid>685ea561-0445-400a-b7f7-d23ae8b6363e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>required</name>
       <type>Main</type>
       <value>required</value>
-      <webElementGuid>700b352e-06f5-4aa3-8263-89e24dcbae60</webElementGuid>
+      <webElementGuid>590615d0-e233-4c8f-8e73-f59c6b058ef8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,62 +54,62 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>f8d94382-ed2b-498b-8879-e44d8f2f2239</webElementGuid>
+      <webElementGuid>6051fb27-b3b5-49a9-b6ad-9fb1cc368440</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>abc!@#</value>
-      <webElementGuid>5f43fcdf-0076-48e5-b967-c25e0f3e4c6e</webElementGuid>
+      <value>Laptop Gaming ROG</value>
+      <webElementGuid>40a49491-94be-479b-9841-a7cca9a73fe2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>user[phone_number]</value>
-      <webElementGuid>90b5e9c4-f34d-4c72-9e13-be5daf8815fa</webElementGuid>
+      <value>product[name]</value>
+      <webElementGuid>0f1ace84-2639-4b21-aeb0-c07e1c270935</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>user_phone_number</value>
-      <webElementGuid>18c6ef4f-9c7d-4149-85f9-fdbaf2e95dd7</webElementGuid>
+      <value>product_name</value>
+      <webElementGuid>7f251aed-b44c-4951-bdac-60583fa8b59a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;user_phone_number&quot;)</value>
-      <webElementGuid>02fffb35-a56c-4d32-b484-eba307b8148d</webElementGuid>
+      <value>id(&quot;product_name&quot;)</value>
+      <webElementGuid>57eec7ce-2086-4237-b0f5-da3f15b599e9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='user_phone_number']</value>
-      <webElementGuid>95275600-f852-459d-8f81-28e0f3e50bd7</webElementGuid>
+      <value>//input[@id='product_name']</value>
+      <webElementGuid>751eeabf-1473-4645-99c8-f9579321c61c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/input</value>
-      <webElementGuid>54b1793d-8905-421d-8d3d-1c985b286fe0</webElementGuid>
+      <value>//section/div/form/div/input</value>
+      <webElementGuid>057df456-0a6f-455e-aa92-3bffc1f21784</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@placeholder = 'contoh: +628123456789' and @type = 'text' and @name = 'user[phone_number]' and @id = 'user_phone_number']</value>
-      <webElementGuid>b7b88605-135d-4ab1-92c2-24478d216109</webElementGuid>
+      <value>//input[@placeholder = 'Nama Produk' and @type = 'text' and @name = 'product[name]' and @id = 'product_name']</value>
+      <webElementGuid>80506649-6c10-4e0d-a9c4-6c47cb19f638</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

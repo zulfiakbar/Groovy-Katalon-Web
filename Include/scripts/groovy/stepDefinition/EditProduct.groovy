@@ -44,37 +44,22 @@ import cucumber.api.java.en.When
 
 
 
-class login {
-	@Given("User is on SecondHand web")
-	public void user_is_on_secondhand_web() {
-		WebUI.openBrowser('');
-		WebUI.maximizeWindow();
-		WebUI.navigateToUrl('https://secondhand.binaracademy.org/');
-		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/header_BannerBulanRamadhan'))
+class EditProduct {
+	/**
+	 * The step definitions below match with Katalon sample Gherkin steps
+	 */
+	@Given("I want to write a step with (.*)")
+	def I_want_to_write_a_step_with_name(String name) {
+		println name
 	}
 
-	@When("User click MASUK button")
-	public void user_click_masuk_button() {
-		WebUI.click(findTestObject('Page_SecondHand/button_Masuk'))
+	@When("I check for the (\\d+) in step")
+	def I_check_for_the_value_in_step(int value) {
+		println value
 	}
 
-	@And("User is on login page")
-	public void user_is_on_login_page() {
-		WebUI.verifyElementVisible(findTestObject('Page_Login/header_SecondHandLogin'))
-	}
-
-	@And("User input {string} into the EMAIL field")
-	public void user_input_email_into_the_email_field(String email) {
-		WebUI.setText(findTestObject('Page_Login/inputfield_Email'), email)
-	}
-
-	@And("User input {string} into the PASSWORD field")
-	public void user_input_password_into_the_password_field(String password) {
-		WebUI.setText(findTestObject('Page_Login/inputfield_Password'), password)
-	}
-
-	@And("User clik LOGIN button")
-	public void user_clik_login_button() {
-		WebUI.click(findTestObject('Page_Login/button_MasukLogin'))
+	@Then("I verify the (.*) in step")
+	def I_verify_the_status_in_step(String status) {
+		println status
 	}
 }
