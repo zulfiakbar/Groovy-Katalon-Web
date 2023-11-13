@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_commit</name>
+   <name>button_DaftarRegister</name>
    <tag></tag>
    <elementGuidId>0c8cf3f9-29fc-4ddf-9b2e-a518d6881e69</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='commit']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input[name=&quot;commit&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='commit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

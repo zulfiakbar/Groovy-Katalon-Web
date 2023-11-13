@@ -22,7 +22,7 @@ import cucumber.api.java.en.And
 import internal.GlobalVariable
 
 public class Logout {
-	
+
 	@And("User cick PROFILE button")
 	public void user_clik_profile_button() {
 		WebUI.click(findTestObject('Page_SecondHand/button_Profile'))

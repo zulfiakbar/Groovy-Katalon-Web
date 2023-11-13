@@ -6,12 +6,16 @@
    <elementGuidId>08d611fb-49bd-4c19-bf64-062e6e8ee3a8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;q&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='q']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'q' and @type = 'search' and @placeholder = 'Cari di sini ...']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;q&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>f3e48d8c-d527-4e0d-adb1-6a1207caaf25</webElementGuid>
+      <webElementGuid>f924c315-32af-4b6d-a401-ae4b75037cb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>name</name>
       <type>Main</type>
       <value>q</value>
-      <webElementGuid>e80aad39-2806-4259-921c-ce03ca67b797</webElementGuid>
+      <webElementGuid>06936810-e6e5-4d4a-8c73-6ac9289309c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control bg-transparent border-0 form-search</value>
-      <webElementGuid>379a6095-9915-4688-b558-317d8ea6bdc2</webElementGuid>
+      <webElementGuid>580f3a83-a352-49cc-b455-28a91567e265</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>3539e7bb-d91e-444f-aad8-cec49558cad2</webElementGuid>
+      <webElementGuid>74a4ff25-aca1-4ee9-8c47-cc8b64b877e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Cari di sini ...</value>
-      <webElementGuid>e02cf426-d0ad-41c0-bd00-ebc2ff79a51c</webElementGuid>
+      <webElementGuid>440f931e-3501-4563-9a19-bfda8e0a22d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Search</value>
-      <webElementGuid>6e85f75a-2018-4d3d-b25f-567046efa282</webElementGuid>
+      <webElementGuid>91924d77-1668-47bd-b820-b4247b0e95f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarSupportedContent&quot;)/form[@class=&quot;d-flex ms-0 ms-lg-4 my-4 my-lg-0&quot;]/div[@class=&quot;input-group rounded-pill bg-light p-1 search&quot;]/input[@class=&quot;form-control bg-transparent border-0 form-search&quot;]</value>
-      <webElementGuid>aff2732d-fa07-44f6-98f0-602dde580106</webElementGuid>
+      <webElementGuid>cdf23938-11d9-4978-bbaf-e389c7c7a7f3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='q']</value>
-      <webElementGuid>bc8ca45e-556f-45f7-8c97-04b468cda9be</webElementGuid>
+      <webElementGuid>eb1fe42e-033b-49cb-8d81-caec720813f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarSupportedContent']/form/div/input</value>
-      <webElementGuid>a76da6e6-bcfd-4dd5-8346-40ff252ab575</webElementGuid>
+      <webElementGuid>7a641fdf-6d1d-46ba-b126-93eee523b27b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>feb20568-f091-47d9-bbfd-b82379ce69ba</webElementGuid>
+      <webElementGuid>b64bd05d-b058-46ed-8db4-fff9ab5bddca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'q' and @type = 'search' and @placeholder = 'Cari di sini ...']</value>
-      <webElementGuid>6b3ebb43-ebac-45f7-a518-e005f33a49da</webElementGuid>
+      <webElementGuid>33ccb169-623a-427b-96d3-223893234c99</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
