@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>header_SecondHandLogin</name>
+   <tag></tag>
+   <elementGuidId>41f99a2b-f92f-411b-9997-aba3bcc0a77c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.display-5.fw-bold.text-white.align-self-center.p-5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/preceding::h1[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>8e5c953b-48ae-4721-aadb-4f2a08e26f04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>display-5 fw-bold text-white align-self-center p-5</value>
+      <webElementGuid>75a721c6-6bd2-4997-9582-251a9d05267f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SecondHand.</value>
+      <webElementGuid>8d8b4e14-f374-4692-9627-81689c2d1229</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;container-fluid min-height-100vh&quot;]/div[@class=&quot;row min-height-100vh w-100&quot;]/div[@class=&quot;col-6 session-background d-flex&quot;]/h1[@class=&quot;display-5 fw-bold text-white align-self-center p-5&quot;]</value>
+      <webElementGuid>cac68d2c-da43-41b6-8c13-ef2d5087c3be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/preceding::h1[1]</value>
+      <webElementGuid>48f437a3-e264-4b27-a5fd-a36e65964062</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::h1[1]</value>
+      <webElementGuid>d56c30fc-160a-4fc5-8bf7-b8dd4c9970a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Second']/parent::*</value>
+      <webElementGuid>c288f722-2826-4e77-9918-29ac768ddd2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>8f16ac43-0cca-41e3-9e8a-5e16ae4db692</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'SecondHand.' or . = 'SecondHand.')]</value>
+      <webElementGuid>abdef8b4-7acb-4fb4-8b48-5431b5fd04d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Deskripsi</name>
+   <tag></tag>
+   <elementGuidId>b6fe9202-f1df-40dc-a6c1-ef983f696299</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.card-text.text-black-50.fs-6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::p[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>ea6c8452-c9de-45e0-a7b5-a50ac0975d48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-text text-black-50 fs-6</value>
+      <webElementGuid>2e64dc3a-22a7-4e9c-9f12-621828678e12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Good</value>
+      <webElementGuid>8027c582-3846-400b-9e12-c4a40ce4138b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-8&quot;]/div[@class=&quot;card mt-5 p-2 border border-4 border-light rounded-4&quot;]/div[@class=&quot;card-body&quot;]/p[@class=&quot;card-text text-black-50 fs-6&quot;]</value>
+      <webElementGuid>a5f60706-49af-4365-8411-ea7fbada58f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::p[1]</value>
+      <webElementGuid>1593fc61-1a08-49bc-9a6f-96f62d85c1dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Book'])[1]/preceding::p[1]</value>
+      <webElementGuid>6e20e4cd-2493-40f2-9b0b-dd94f0fd77fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya tertarik dan ingin nego'])[1]/preceding::p[3]</value>
+      <webElementGuid>2e591781-7efe-44fd-b97f-69006b0d3360</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Good']/parent::*</value>
+      <webElementGuid>30b927f6-0d57-4c77-b248-bfced51c98e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>4cc1b50a-cb21-4d6b-aed8-e2c717d4d11a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Good' or . = 'Good')]</value>
+      <webElementGuid>58f8a29f-1424-4e39-b69f-7999cb73a0f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

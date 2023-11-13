@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Next</name>
+   <tag></tag>
+   <elementGuidId>bbe9b1bb-73e4-467a-b315-5929acbf8906</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.next_page.disabled</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='products']/div[6]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>287507de-4d2a-4ed5-9c6d-e45b5054e543</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>next_page disabled</value>
+      <webElementGuid>11c508d9-0a7a-480a-a2aa-6a414bbd6f7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>9ada6f6f-013e-4228-a28a-c26476d2f4e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Next →</value>
+      <webElementGuid>6505195a-7487-4212-9ddd-86f40b8bc0c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;products&quot;)/div[@class=&quot;d-flex gap-4 align-items-center justify-content-center my-5&quot;]/span[@class=&quot;next_page disabled&quot;]</value>
+      <webElementGuid>1aa869cd-7ab2-4473-bd20-2a5b7c2e8089</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='products']/div[6]/span</value>
+      <webElementGuid>19e0f8b1-3fb2-485d-8e8b-ba38bdfba752</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='← Previous'])[1]/following::span[1]</value>
+      <webElementGuid>678f5a2c-6f30-4ff1-85f6-68100c000ff4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 70'])[1]/following::span[1]</value>
+      <webElementGuid>772bd29c-1d2a-443b-b039-fab3541cd332</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jual'])[1]/preceding::span[1]</value>
+      <webElementGuid>bf499674-a9ea-4aad-9299-8a6404c5cee4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Next →']/parent::*</value>
+      <webElementGuid>3280d27c-a769-4156-ac16-b71cbf608ec4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/span</value>
+      <webElementGuid>a0a2686c-bbf3-4edc-8386-4cf9f701ee77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Next →' or . = 'Next →')]</value>
+      <webElementGuid>a8d3ec5d-b09b-47e5-8c3e-31fcc923c250</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

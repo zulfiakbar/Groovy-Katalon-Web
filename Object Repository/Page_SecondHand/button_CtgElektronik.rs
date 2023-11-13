@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_CtgElektronik</name>
+   <tag></tag>
+   <elementGuidId>178803ba-737c-4aff-b28e-e92f3d62f635</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Elektronik']/parent::*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8d65ecab-b010-4cf2-82b3-ef1972cf3ee2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-alt-primary col rounded-4 py-2 px-4 d-inline-flex align-items-center false</value>
+      <webElementGuid>9a80d505-e162-42e8-8690-1edb09bddafd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/?category_id=4</value>
+      <webElementGuid>8f24bd81-fcd3-4990-aeb4-8cc5b55627cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+        
+        Elektronik
+</value>
+      <webElementGuid>55006d87-c97d-4279-bf8c-05398a785134</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container&quot;]/nav[@class=&quot;nav row gap-4 px-2 px-lg-0&quot;]/a[@class=&quot;btn btn-alt-primary col rounded-4 py-2 px-4 d-inline-flex align-items-center false&quot;]</value>
+      <webElementGuid>a65dfd0a-eb1b-4510-9ade-11fbdf7e4628</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Elektronik']/parent::*</value>
+      <webElementGuid>66543393-a24f-4185-89a9-e1c42455e910</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/?category_id=4')]</value>
+      <webElementGuid>10ec3357-2ac3-47d4-8077-db6907244c1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[5]</value>
+      <webElementGuid>eb72a68e-9a99-4fc4-8d22-e959da6191ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/?category_id=4' and (text() = '
+        
+        Elektronik
+' or . = '
+        
+        Elektronik
+')]</value>
+      <webElementGuid>054f2b40-e4ff-46ab-ac8f-bfc7d5771375</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
