@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Next</name>
    <tag></tag>
-   <elementGuidId>36130cae-f667-4a02-89a3-e8dd440671a3</elementGuidId>
+   <elementGuidId>474ce8ae-b1a0-4e80-8666-a3b7fa58538e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,10 +11,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='products']/div[11]/a[2]</value>
+         <value>//div[@id='products']/div[11]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>23972fa6-6604-47bd-9786-f4408c247250</webElementGuid>
+      <webElementGuid>9efea2b0-6cca-43f7-8473-a606aa8f831a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>next_page</value>
-      <webElementGuid>8d377353-6898-4faa-9871-39d90b9b04e9</webElementGuid>
+      <webElementGuid>719252d4-2a94-4f69-8189-cd08f3c2cd36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +38,15 @@
       <name>rel</name>
       <type>Main</type>
       <value>next</value>
-      <webElementGuid>35db4a77-4bc0-4dbf-9cdc-4c0c1d6dc7a9</webElementGuid>
+      <webElementGuid>00ac7497-91ea-4911-a1dc-c5e0e576fa96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/?category_id=5&amp;page=3</value>
-      <webElementGuid>9887c8fd-ca23-4d43-b705-a1d2965f3184</webElementGuid>
+      <value>/?page=2</value>
+      <webElementGuid>edc084f5-2551-4490-9a39-f3156ac7a256</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,23 +54,23 @@
       <name>text</name>
       <type>Main</type>
       <value>Next →</value>
-      <webElementGuid>05142105-d013-4106-a5ca-c5421e788a73</webElementGuid>
+      <webElementGuid>65f6cb72-38a3-4cf8-84bd-861690de2a4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;products&quot;)/div[@class=&quot;d-flex gap-4 align-items-center justify-content-center my-5&quot;]/a[@class=&quot;next_page&quot;]</value>
-      <webElementGuid>e7e1746a-dba7-43df-ac36-4b50a1428e7d</webElementGuid>
+      <webElementGuid>ac72450a-5cb0-46bd-8f70-405109a20126</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='products']/div[11]/a[2]</value>
-      <webElementGuid>f26236cc-d13c-4020-8df4-929f1db30e1d</webElementGuid>
+      <value>//div[@id='products']/div[11]/a</value>
+      <webElementGuid>c10ead67-efe8-44cc-aae5-28b8d8a6dafa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Next →')]</value>
-      <webElementGuid>f7ade0e5-2690-41bd-b9c0-6d5eb9ec3624</webElementGuid>
+      <webElementGuid>f01d9e79-1ed4-41e9-bf14-800ff36ef642</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,15 +86,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='← Previous'])[1]/following::a[1]</value>
-      <webElementGuid>5693818f-a23b-4076-86f8-12125fb922bc</webElementGuid>
+      <webElementGuid>de41c998-b29d-4b8f-a934-834f42b5c573</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 20.000'])[7]/following::a[2]</value>
-      <webElementGuid>e940ffb2-9efb-4e47-b5b6-39a93ec10905</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 1.000'])[7]/following::a[1]</value>
+      <webElementGuid>0c3eef2a-8d7e-4ec5-b4c5-fc1ce65f037f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jual'])[1]/preceding::a[1]</value>
-      <webElementGuid>db66580e-ae1b-4c13-83c1-b0ad19879d50</webElementGuid>
+      <webElementGuid>2849a037-6457-477a-b8a9-5d35bdc3d1f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
+      <webElementGuid>ad8d4411-fae2-40dc-b692-f2882be1d905</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,30 +118,30 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Next →']/parent::*</value>
-      <webElementGuid>c6b68d51-4df9-431a-afda-2d243254cd67</webElementGuid>
+      <webElementGuid>f4442653-5c74-4b3d-8ef3-82cb2486060e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/?category_id=5&amp;page=3')]</value>
-      <webElementGuid>beb05478-c3b6-4fe3-94ba-1fd6884c6b3d</webElementGuid>
+      <value>//a[contains(@href, '/?page=2')]</value>
+      <webElementGuid>f4c39265-791a-4ff0-b897-bfc7071e717b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[11]/a[2]</value>
-      <webElementGuid>ffaf7ade-9388-495b-aebb-a22dc3b8fdec</webElementGuid>
+      <value>//div[11]/a</value>
+      <webElementGuid>9ebc68aa-0750-4d91-8623-fd78c974f56d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/?category_id=5&amp;page=3' and (text() = 'Next →' or . = 'Next →')]</value>
-      <webElementGuid>f727dfee-9503-416f-8c95-13a0e8c79f30</webElementGuid>
+      <value>//a[@href = '/?page=2' and (text() = 'Next →' or . = 'Next →')]</value>
+      <webElementGuid>5aa45952-d27f-4830-b9e1-8d2e6d6e24ee</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
