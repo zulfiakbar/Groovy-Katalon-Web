@@ -24,20 +24,19 @@ import cucumber.api.java.en.When
 import internal.GlobalVariable
 
 public class ProductDetail {
-	
+
 	@When("User scroll down to product list")
 	public void user_scroll_down_to_product_list() {
 		WebUI.clickImage(findTestObject('Page_SecondHand/img_Produk01'))
 	}
-	
+
 	@When("User click first product card")
 	public void user_click_first_product_card() {
 		WebUI.scrollToElement(findTestObject('Page_SecondHand/header_HargaProduk01'), 1)
 		WebUI.scrollToElement(findTestObject('Page_SecondHand/img_Produk01'), 1)
 		WebUI.click(findTestObject('Page_SecondHand/header_NamaProduk01'))
-		
 	}
-	
+
 	@And("User is on product detail page")
 	public void user_is_on_product_detail_page() {
 		WebUI.verifyElementVisible(findTestObject('Page_ProductDetail/txt_NamaProduk'))
