@@ -23,39 +23,26 @@ import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
 class Hook {
-	
-def openBrowser() {
-	WebUI.openBrowser('');
-	WebUI.maximizeWindow();
-	WebUI.navigateToUrl('https://secondhand.binaracademy.org/');
-}
-	
-def closeBrowser() {
-	WebUI.closeBrowser();
-}
-	
-@BeforeTestCase
-def beforeTestCase(TestCaseContext testCaseContext) {
-//	KeywordUtil.logInfo('Test Case: ' + testCaseContext.getTestCaseId())
-	this.openBrowser()
-}
 
-@AfterTestCase
-def afterTestCase(TestCaseContext testCaseContext) {
-//	KeywordUtil.logInfo('Test Case: ' + testCaseContext.getTestCaseId())
-	this.closeBrowser()
-}
-	
-@BeforeTestSuite
-def beforeTestSuite(TestSuiteContext testSuiteContext) {
-//	KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
-//	this.openBrowser()
-}
+	def openBrowser() {
+		WebUI.openBrowser('');
+		WebUI.maximizeWindow();
+		WebUI.navigateToUrl('https://secondhand.binaracademy.org/');
+	}
 
-@AfterTestSuite
-def afterTestSuite(TestSuiteContext testSuiteContext) {
-//	KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
-//	this.closeBrowser()
-}
+	def closeBrowser() {
+		WebUI.closeBrowser();
+	}
 
+	@BeforeTestCase
+	def beforeTestCase(TestCaseContext testCaseContext) {
+		//	KeywordUtil.logInfo('Test Case: ' + testCaseContext.getTestCaseId())
+		//	this.openBrowser()
+	}
+
+	@AfterTestCase
+	def afterTestCase(TestCaseContext testCaseContext) {
+		//	KeywordUtil.logInfo('Test Case: ' + testCaseContext.getTestCaseId())
+		this.closeBrowser()
+	}
 }
