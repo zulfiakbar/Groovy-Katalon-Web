@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Kota</name>
+   <tag></tag>
+   <elementGuidId>fa8e858e-532e-4409-9b06-4868eb0b0fb4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama'])[1]/following::label[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>b7a49551-82cd-4e22-b804-9161a83b565c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-label</value>
+      <webElementGuid>9961457d-6268-4b62-9783-96d7bb4d273c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>user_city_id</value>
+      <webElementGuid>54e66646-cc56-4d2c-9b4b-048fb33b5f57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kota</value>
+      <webElementGuid>7dc0c13e-0c53-484a-8e5d-b558a5dc5b0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container container-sm position-relative&quot;]/section[@class=&quot;row mt-5&quot;]/div[@class=&quot;col-11&quot;]/form[1]/div[@class=&quot;mb-4&quot;]/label[@class=&quot;form-label&quot;]</value>
+      <webElementGuid>5199f325-aa8c-421a-a6bd-7ea68de95251</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama'])[1]/following::label[1]</value>
+      <webElementGuid>77707ce7-0c9e-48ff-83ca-cafe063c5db6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signed in successfully.'])[1]/following::label[2]</value>
+      <webElementGuid>e39e7e3d-e531-4747-a4f1-035e70c7e3f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat'])[1]/preceding::label[1]</value>
+      <webElementGuid>33951a1b-8bd2-4d10-bfc4-314162e72c41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jl. Kaliurang'])[1]/preceding::label[2]</value>
+      <webElementGuid>62ab5555-0cc5-4dfe-96ff-2735ab1003a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kota']/parent::*</value>
+      <webElementGuid>d43285d3-0d50-4ce6-8475-026e37e501c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/label</value>
+      <webElementGuid>d4e646e1-6c3c-4fe8-865c-45d460eaa080</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Kota' or . = 'Kota')]</value>
+      <webElementGuid>d06f55e6-a87f-428e-becc-f5079432be57</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
