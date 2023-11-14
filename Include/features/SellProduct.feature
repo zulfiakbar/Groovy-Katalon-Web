@@ -18,3 +18,4 @@ Feature: Sell Product
 	And User input "Deskripsi Produk" into DESKRIPSI field
 	And User input image into IMAGE field
 	And User click on TERBITKAN button
+	Then User is on product detail page
