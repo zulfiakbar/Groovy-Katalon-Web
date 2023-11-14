@@ -22,17 +22,16 @@ import cucumber.api.java.en.And
 import internal.GlobalVariable
 
 public class MyProductList {
-	
+
 	@And("User is on my product list page")
 	public void user_is_on_my_product_list_page() {
 		WebUI.verifyElementVisible(findTestObject('Page_MyProductList/header_DaftarJualSaya'))
 	}
-	
+
 	@And("User click my first product")
 	public void user_click_my_first_product() {
 		WebUI.scrollToElement(findTestObject('Page_MyProductList/header_HargaProduk01'), 1)
 		WebUI.scrollToElement(findTestObject('Page_MyProductList/img_Produk01'), 1)
 		WebUI.click(findTestObject('Page_MyProductList/header_NamaProduk01'))
 	}
-	
 }

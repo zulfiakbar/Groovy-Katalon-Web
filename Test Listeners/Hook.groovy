@@ -25,9 +25,9 @@ import com.kms.katalon.core.context.TestSuiteContext
 class Hook {
 
 	def openBrowser() {
-		WebUI.openBrowser('');
-		WebUI.maximizeWindow();
-		WebUI.navigateToUrl('https://secondhand.binaracademy.org/');
+//		WebUI.openBrowser('');
+//		WebUI.maximizeWindow();
+//		WebUI.navigateToUrl('https://secondhand.binaracademy.org/');
 	}
 
 	def closeBrowser() {
