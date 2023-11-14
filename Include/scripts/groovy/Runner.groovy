@@ -25,10 +25,9 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 features = "Include/features",
 glue = "stepDefinition",
-tags = "@Login",
+tags = "@PRLGG",
 monochrome = true
 )
 
 public class Runner {
-	
 }

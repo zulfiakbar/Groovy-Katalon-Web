@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Back</name>
    <tag></tag>
-   <elementGuidId>ce249757-1b90-4b20-94eb-d7213d337c89</elementGuidId>
+   <elementGuidId>3aa46469-03ba-4417-9572-451cc354f286</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//i</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>i.bi.bi-arrow-left.fs-5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>4d7877ce-2e30-4012-9a74-3f61927d7443</webElementGuid>
+      <webElementGuid>f471cf93-cf57-4f23-baa0-42da02c597c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bi bi-arrow-left fs-5</value>
-      <webElementGuid>1751496f-339e-437f-9d58-8d82bf07614c</webElementGuid>
+      <webElementGuid>35856b64-5346-4cf4-b91f-56be0e4c96dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container container-sm position-relative&quot;]/div[@class=&quot;position-absolute top-0 start-0 translate-middle&quot;]/button[@class=&quot;btn btn-link&quot;]/i[@class=&quot;bi bi-arrow-left fs-5&quot;]</value>
-      <webElementGuid>8556e7dc-d8e7-46f8-a9ab-c0697192220f</webElementGuid>
+      <webElementGuid>7c3cdb4e-d439-443b-acfb-38d6bd2e5263</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +46,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//i</value>
-      <webElementGuid>a9045e62-0d32-4f7a-b207-16eb1646df9d</webElementGuid>
+      <webElementGuid>549b48fd-6e9b-40db-8f75-444ca04da76d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

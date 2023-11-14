@@ -47,6 +47,9 @@ import cucumber.api.java.en.When
 class Register {
 	@Given("User is on SecondHand Web")
 	public void user_is_on_SecondHand_Web() {
+		WebUI.openBrowser('');
+		WebUI.maximizeWindow();
+		WebUI.navigateToUrl('https://secondhand.binaracademy.org/');
 		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/header_BannerBulanRamadhan'))
 	}
 
@@ -83,5 +86,10 @@ class Register {
 	@Then("user will be redirected to home page")
 	public void user_will_be_redirected_to_home_page() {
 		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/button_Profile'))
+	}
+	
+	@Then("user will not be redirected to other page")
+	public void user_will_not_be_redirected_to_other_page() {
+		WebUI.verifyElementVisible(findTestObject('Page_Register/Txt_Daftar'))
 	}
 }

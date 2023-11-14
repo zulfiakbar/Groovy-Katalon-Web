@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_NamaProduk</name>
+   <name>Txt_Daftar</name>
    <tag></tag>
-   <elementGuidId>9ddd9472-bbe6-4c07-bd63-43c240e0302d</elementGuidId>
+   <elementGuidId>d9dd19b3-4332-4890-a710-e1126d29e69a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h5.card-title.fs-5.fw-bolder</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='SecondHand.'])[1]/following::h2[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::h5[1]</value>
+         <key>CSS</key>
+         <value>h2.fw-bold.mb-5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,79 +21,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h5</value>
-      <webElementGuid>9dbcaed5-2b18-40cf-85e2-ab99872e13e5</webElementGuid>
+      <value>h2</value>
+      <webElementGuid>5408db2e-743f-41e5-b268-33deb3968a22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>card-title fs-5 fw-bolder</value>
-      <webElementGuid>8cf69751-7e57-475e-9f7b-314e46884de9</webElementGuid>
+      <value>fw-bold mb-5</value>
+      <webElementGuid>77dffb07-a606-4a78-a280-4a9cc35a9463</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Book</value>
-      <webElementGuid>ba4f391c-6034-4caf-b631-199fb75b1364</webElementGuid>
+      <value>Daftar</value>
+      <webElementGuid>4a71e4cd-879f-4a11-be07-9164937c727a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card p-2 rounded-4 shadow border-0&quot;]/div[@class=&quot;card-body&quot;]/h5[@class=&quot;card-title fs-5 fw-bolder&quot;]</value>
-      <webElementGuid>01e29554-86c1-4902-b058-3e55b5beae36</webElementGuid>
+      <value>/html[1]/body[1]/section[@class=&quot;container-fluid min-height-100vh&quot;]/div[@class=&quot;row min-height-100vh w-100&quot;]/div[@class=&quot;col-6 d-flex flex-column align-items-center justify-content-center&quot;]/div[@class=&quot;container p-5&quot;]/h2[@class=&quot;fw-bold mb-5&quot;]</value>
+      <webElementGuid>00e2c07b-3d8b-47bc-b863-1d9bd28ec834</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::h5[1]</value>
-      <webElementGuid>afcd99ff-ad7c-4ed8-8c82-0cd4c6c63572</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SecondHand.'])[1]/following::h2[1]</value>
+      <webElementGuid>905a213e-3fbb-49ee-b089-bb0663f3f194</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya tertarik dan ingin nego'])[1]/preceding::h5[1]</value>
-      <webElementGuid>a9a609ba-1402-4d66-b830-76b127f6e0df</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/preceding::h2[1]</value>
+      <webElementGuid>803563d8-7473-4ccb-b17b-17454646f0ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('', &quot;'&quot;, 'ozoxrduuga', &quot;'&quot;, '')])[1]/preceding::h5[1]</value>
-      <webElementGuid>8c30a80d-e843-4cad-bf51-2d2166889e93</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::h2[1]</value>
+      <webElementGuid>ad350fd1-b585-42e6-8d02-6b6928326586</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Book']/parent::*</value>
-      <webElementGuid>2fdfa4e8-673b-4a76-b199-22ddd8ee3896</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Daftar']/parent::*</value>
+      <webElementGuid>1c0d21c7-6ca2-47c5-afd0-b83f607e3869</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/h5</value>
-      <webElementGuid>5d1b0bd9-b83c-4eb9-8aee-58d2bb7f6021</webElementGuid>
+      <value>//h2</value>
+      <webElementGuid>56640a09-4471-45b2-9714-d82e5f688792</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h5[(text() = 'Book' or . = 'Book')]</value>
-      <webElementGuid>cf9eb2ad-4e58-419b-b586-9d6aa2141a9a</webElementGuid>
+      <value>//h2[(text() = 'Daftar' or . = 'Daftar')]</value>
+      <webElementGuid>4b96ec60-5b16-4e8f-992e-35965e9889f9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

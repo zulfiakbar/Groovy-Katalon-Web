@@ -15,6 +15,11 @@ build
 .chache
 .project
 /bin/
+
+Test Listeners/
+Runner.groovy
+
+
 /Libs/
 /.settings/
 /.classpath

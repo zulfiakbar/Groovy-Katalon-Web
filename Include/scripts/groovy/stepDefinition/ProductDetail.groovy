@@ -41,10 +41,9 @@ public class ProductDetail {
 	public void user_is_on_product_detail_page() {
 		WebUI.verifyElementVisible(findTestObject('Page_ProductDetail/txt_NamaProduk'))
 	}
-	
+
 	@And("User click MY PRODUCT LIST button")
 	public void user_click_my_product_list_button() {
 		WebUI.click(findTestObject('Page_SecondHand/button_MyProductList'))
 	}
-	
 }

@@ -48,12 +48,15 @@ import cucumber.api.java.en.When
 class productList {
 	@Given("the user is on the Home page")
 	public void the_user_is_on_the_Home_page() {
+		WebUI.openBrowser('');
+		WebUI.maximizeWindow();
+		WebUI.navigateToUrl('https://secondhand.binaracademy.org/');
 		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/header_BannerBulanRamadhan'))
 	}
 
 	@And("User scroll down")
 	public void user_scroll_down() {
-		WebUI.scrollToElement(findTestObject('Page_SecondHand/button_Next'), 1)
+		WebUI.scrollToElement(findTestObject('Page_SecondHand/button_Jual'), 5)
 	}
 
 	@And("User click on NEXT button")
@@ -67,6 +70,9 @@ class productList {
 	}
 	@Given("the user is on the Home page two")
 	public void the_user_is_on_the_Home_page_two() {
+		WebUI.openBrowser('');
+		WebUI.maximizeWindow();
+		WebUI.navigateToUrl('https://secondhand.binaracademy.org/');
 		WebUI.navigateToUrl('https://secondhand.binaracademy.org/?page=2');
 	}
 
@@ -75,9 +81,9 @@ class productList {
 		WebUI.click(findTestObject('Page_SecondHand/button_Previous'))
 	}
 
-	@And("User click click on HOBI button in TELUSURI KATEGORI section")
-	public void user_click_click_on_HOBI_button_in_TELUSURI_KATEGORI_section() {
-		WebUI.click(findTestObject('Page_SecondHand/button_CtgHobi'))
+	@And("User click on HOBI button in TELUSURI KATEGORI section")
+	public void user_click_on_HOBI_button_in_TELUSURI_KATEGORI_section() {
+		WebUI.click(findTestObject('PageSeconHand/button_CtgHobi'))
 	}
 
 	@Then("Verify that product list is shown based HOBI categories")
@@ -98,5 +104,15 @@ class productList {
 	@Then("Verify that product list is shown based on LAPTOP which inputted in search field")
 	public void verify_that_product_list_is_shown_based_on_LAPTOP_which_inputted_in_search_field() {
 		WebUI.scrollToElement(findTestObject('Page_SecondHand/button_CtgHobi'), 1)
+	}
+
+	@When("User see previous button is disabled")
+	public void user_see_previous_button_is_disabled() {
+		WebUI.scrollToElement(findTestObject('Page_SecondHand/button_Previous'), 1)
+	}
+
+	@Then("can't click previous button")
+	public void can_t_click_previous_button() {
+		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/button_Previous'))
 	}
 }

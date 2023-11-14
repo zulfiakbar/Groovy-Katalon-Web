@@ -6,12 +6,12 @@
    <elementGuidId>1d8bc31d-d643-4488-a0b8-eba1f831db0c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>i.bi.bi-bell.me-4.me-lg-0</value>
+         <key>XPATH</key>
+         <value>//div/button/i</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='navbarSupportedContent']/div/ul/li[2]/a/i</value>
+         <key>CSS</key>
+         <value>i.bi.bi-arrow-left.fs-5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,26 +22,34 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>c987ff14-391e-45ec-8475-c4679b032180</webElementGuid>
+      <webElementGuid>44a7a644-ab46-44e4-adf9-6b0e4695f429</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>bi bi-bell me-4 me-lg-0</value>
-      <webElementGuid>e7bd8c24-2f2d-41e4-824f-08c5ec7d929b</webElementGuid>
+      <value>bi bi-arrow-left fs-5</value>
+      <webElementGuid>b2095d18-754f-4888-8826-401c605ffae2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item me-0 me-lg-2 fs-5 d-block d-xl-none position-relative&quot;]/a[@class=&quot;nav-link d-flex align-items-center&quot;]/i[@class=&quot;bi bi-bell me-4 me-lg-0&quot;]</value>
-      <webElementGuid>e27a5779-c693-44a3-bede-3bef6de4c1cd</webElementGuid>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container container-sm position-relative&quot;]/div[@class=&quot;position-absolute top-0 start-0 translate-middle&quot;]/button[@class=&quot;btn btn-link&quot;]/i[@class=&quot;bi bi-arrow-left fs-5&quot;]</value>
+      <webElementGuid>fc248c3a-3e1f-4a4f-9fab-c3bef2735743</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/button/i</value>
+      <webElementGuid>9af4da2d-b82d-49a3-885c-9d0a6e7a4472</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

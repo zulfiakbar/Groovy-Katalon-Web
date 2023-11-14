@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>edit_Profile_Image</name>
+   <name>img_ImageField</name>
    <tag></tag>
-   <elementGuidId>ab0b2065-8a73-4737-b6bc-7ef5e1bea082</elementGuidId>
+   <elementGuidId>22cc6d67-88d8-4261-8e4f-180995728d6b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='form-avatar-view']</value>
+         <key>CSS</key>
+         <value>div.form-image.rounded-4.img-preview</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#form-avatar-view</value>
+         <key>XPATH</key>
+         <value>//div[@onclick='clickFileInput(this)']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>7b516041-cab8-4c91-a0f9-451c60a91ea2</webElementGuid>
+      <webElementGuid>0645117b-7f21-4f5c-9470-c9e5a425749e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>d-flex justify-content-center</value>
-      <webElementGuid>1db78700-89c2-44e5-8749-276f88ae8ded</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>form-avatar-view</value>
-      <webElementGuid>92a12855-1f84-4203-9e04-131ffe5d9b25</webElementGuid>
+      <value>form-image rounded-4 img-preview</value>
+      <webElementGuid>f7491837-3e6a-4f72-af8d-f462d20925d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>clickFileInput(this)</value>
+      <webElementGuid>c6551878-2897-43ce-a099-4b2dd70ccea3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form-avatar-view&quot;)</value>
-      <webElementGuid>d40a921f-dca9-42be-ae34-5a2d5f68fedc</webElementGuid>
+      <value>id(&quot;input-images&quot;)/div[@class=&quot;form-image rounded-4 img-preview&quot;]</value>
+      <webElementGuid>c4f77ee5-9da8-433d-887e-ce0ba5b6cbbc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='form-avatar-view']</value>
-      <webElementGuid>bf9fd2c0-45b6-4d4c-87f2-f7a62edee9ec</webElementGuid>
+      <value>//div[@onclick='clickFileInput(this)']</value>
+      <webElementGuid>603a0ed3-4ca8-48c1-be48-65baf72de66e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='input-images']/div[2]</value>
+      <webElementGuid>ebd9c5a2-a116-4141-8594-392805137f6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signed in successfully.'])[1]/following::div[4]</value>
-      <webElementGuid>3de90d0e-55c4-4e6c-9326-5c54a7db15fb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[2]/following::div[3]</value>
+      <webElementGuid>ec497dec-1da9-4263-989a-9b40cb2331a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lengkapi Info Akun'])[1]/following::div[5]</value>
-      <webElementGuid>36cad728-469b-478d-856e-0a11a33987cb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::div[3]</value>
+      <webElementGuid>600dd63c-3011-43a4-bc8a-ae16da7f74c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama'])[1]/preceding::div[2]</value>
-      <webElementGuid>a595f7e0-249c-4e9e-9265-c53b4bda305a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[1]/preceding::div[1]</value>
+      <webElementGuid>16b3a0b2-e26f-4000-a633-6a3ecda2faa5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kota'])[1]/preceding::div[3]</value>
-      <webElementGuid>8f54d629-530a-49cc-8e21-c4ca0f86da8e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terbitkan'])[1]/preceding::div[1]</value>
+      <webElementGuid>b43ea162-2b24-41c9-bf57-dea1dbf61dbb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/div</value>
-      <webElementGuid>87ba35c8-3a35-453d-bdc0-9580410a98b6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[@id = 'form-avatar-view']</value>
-      <webElementGuid>7a5f215e-13ae-4e47-9534-18c3aa8ecc0d</webElementGuid>
+      <value>//div[5]/div[2]</value>
+      <webElementGuid>7f7fe408-5183-4e12-93f3-122464f607ef</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
