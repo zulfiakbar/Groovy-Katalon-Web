@@ -34,4 +34,6 @@ public class MyProductList {
 		WebUI.scrollToElement(findTestObject('Page_MyProductList/img_Produk01'), 1)
 		WebUI.click(findTestObject('Page_MyProductList/header_NamaProduk01'))
 	}
+	
+	
 }
