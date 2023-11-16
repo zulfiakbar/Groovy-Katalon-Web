@@ -68,7 +68,7 @@ class profile {
 	@And("User updates profile without select item in kota dropdown field")
 	public void Userupdatesprofilewithoutselectiteminkotadropdownfield() {
 		WebUI.setText(findTestObject('Object Repository/Page_Profile/inputfield_NamaProfile'), 'Lenny1')
-//		WebUI.selectOptionByLabel(findTestObject('Object Repository/Page_Profile/select_PilihKotaProfile'), optionToRemove, true)
+		//		WebUI.selectOptionByLabel(findTestObject('Object Repository/Page_Profile/select_PilihKotaProfile'), optionToRemove, true)
 		WebUI.click(findTestObject('Object Repository/Page_Profile/select_PilihKota'))
 		WebUI.setText(findTestObject('Object Repository/Page_Profile/inputfield_AlamatProfile'), 'Jalan Sawi No 12')
 		WebUI.setText(findTestObject('Object Repository/Page_Profile/inputfield_No HandphoneProfile'), '08227535987')
