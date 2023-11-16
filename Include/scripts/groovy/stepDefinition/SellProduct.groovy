@@ -86,4 +86,9 @@ class SellProduct {
 	public void user_click_terbitkan_button() {
 		WebUI.click(findTestObject('Page_SellProduct/button_Terbitkan'))
 	}
+	
+	@And("User click on PREVIEW button")
+	public void user_click_preview_button() {
+		WebUI.click(findTestObject('Page_SellProduct/button_Preview'))
+	}
 }
