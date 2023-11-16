@@ -42,48 +42,26 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
-
-
-class SellProduct {
-
-	@And("User is on HOME page")
-	public void user_is_on_home_page() {
-		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/card_Produk01'))
+public class Notification {
+	
+	@And("User click NOTIFICATION button")
+	public void user_click_notificaton_button() {
+		WebUI.click(findTestObject('Page_ProductDetail/button_MyNotificationProductDetail'))
 	}
-
-	@And("User click on JUAL button")
-	public void user_click_jual_button() {
-		WebUI.click(findTestObject('Page_SecondHand/button_Jual'))
+	
+	@And("User click the first notification")
+	public void user_click_the_first_notification() {
+		WebUI.click(findTestObject('Page_SecondHand/div_Notification01'))
 	}
-
-	@And("User input {string} into NAMA PRODUK field")
-	public void user_input_namaProduk_into_the_namaProduk_field(String namaProduk) {
-		WebUI.setText(findTestObject('Page_SellProduct/inputfield_NamaProduk'), namaProduk)
+	
+	@And("User verify the product name {string}")
+	public void user_click_the_first_notification(String namaProduk) {
+		WebUI.verifyElementText(findTestObject('Page_ProductDetail/txt_NamaProduk'), namaProduk)
+	//	WebUI.verifyElementVisible(findTestObject('Page_Login/header_SecondHandLogin'))
 	}
-
-	@And("User input {string} into HARGA PRODUK field")
-	public void user_input_hargaProduk_into_the_hargaProduk_field(String hargaProduk) {
-		WebUI.setText(findTestObject('Page_SellProduct/inputfield_HargaProduk'), hargaProduk)
-	}
-
-	@And("User select {string} into KATEGORI dropdown field")
-	public void user_select_kategoriProduk_into_the_kategoriProduk_field(String kategoriProduk) {
-		WebUI.selectOptionByLabel(findTestObject('Page_SellProduct/inputfield_KategoriProduk'), kategoriProduk, false)
-		WebUI.verifyOptionSelectedByLabel(findTestObject('Page_SellProduct/inputfield_KategoriProduk'), kategoriProduk, false, 5)
-	}
-
-	@And("User input {string} into DESKRIPSI field")
-	public void user_input_deskripsiProduk_into_the_deskripsiProduk_field(String deskripsiProduk) {
-		WebUI.setText(findTestObject('Page_SellProduct/inputfield_DeskripsiProduk'), deskripsiProduk)
-	}
-
-	@And("User input image into IMAGE field")
-	public void user_input_imageProduk_into_the_imageProduk_field() {
-		WebUI.uploadFile(findTestObject('Page_SellProduct/inputfield_ImageProduk'), System.getProperty('user.dir') + '\\Asset\\Image\\rog.png')
-	}
-
-	@And("User click on TERBITKAN button")
-	public void user_click_terbitkan_button() {
-		WebUI.click(findTestObject('Page_SellProduct/button_Terbitkan'))
+	
+	@And("User click HOME button")
+	public void user_click_home_button() {
+		WebUI.click(findTestObject('Page_SecondHand/button_HomePage'))
 	}
 }
