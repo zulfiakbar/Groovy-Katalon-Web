@@ -45,12 +45,12 @@ import cucumber.api.java.en.When
 
 
 class SellProduct {
-	
+
 	@And("User is on HOME page")
 	public void user_is_on_home_page() {
 		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/card_Produk01'))
 	}
-	
+
 	@And("User click on JUAL button")
 	public void user_click_jual_button() {
 		WebUI.click(findTestObject('Page_SecondHand/button_Jual'))
@@ -60,28 +60,28 @@ class SellProduct {
 	public void user_input_namaProduk_into_the_namaProduk_field(String namaProduk) {
 		WebUI.setText(findTestObject('Page_SellProduct/inputfield_NamaProduk'), namaProduk)
 	}
-	
+
 	@And("User input {string} into HARGA PRODUK field")
 	public void user_input_hargaProduk_into_the_hargaProduk_field(String hargaProduk) {
 		WebUI.setText(findTestObject('Page_SellProduct/inputfield_HargaProduk'), hargaProduk)
 	}
-	
+
 	@And("User select {string} into KATEGORI dropdown field")
 	public void user_select_kategoriProduk_into_the_kategoriProduk_field(String kategoriProduk) {
 		WebUI.selectOptionByLabel(findTestObject('Page_SellProduct/inputfield_KategoriProduk'), kategoriProduk, false)
 		WebUI.verifyOptionSelectedByLabel(findTestObject('Page_SellProduct/inputfield_KategoriProduk'), kategoriProduk, false, 5)
 	}
-	
+
 	@And("User input {string} into DESKRIPSI field")
 	public void user_input_deskripsiProduk_into_the_deskripsiProduk_field(String deskripsiProduk) {
 		WebUI.setText(findTestObject('Page_SellProduct/inputfield_DeskripsiProduk'), deskripsiProduk)
 	}
-	
+
 	@And("User input image into IMAGE field")
 	public void user_input_imageProduk_into_the_imageProduk_field() {
 		WebUI.uploadFile(findTestObject('Page_SellProduct/inputfield_ImageProduk'), System.getProperty('user.dir') + '\\Asset\\Image\\rog.png')
-		}
-		
+	}
+
 	@And("User click on TERBITKAN button")
 	public void user_click_terbitkan_button() {
 		WebUI.click(findTestObject('Page_SellProduct/button_Terbitkan'))

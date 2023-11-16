@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "0E3C37D7E6617C62A405CFB9CBCB8C0A",
+  "keywordFileContentHash": "3D34E652FD13D31BC8D022BDCB192456",
   "keywordClasses": [
     {
-      "name": "stepDefinition.Profile",
+      "name": "stepDefinition.profile",
       "keywordMethods": []
     }
   ],

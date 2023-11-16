@@ -42,44 +42,26 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
-
-
-class login {
-	@Given("User is on SecondHand web")
-	public void user_is_on_secondhand_web() {
-		WebUI.openBrowser('');
-		WebUI.maximizeWindow();
-		WebUI.navigateToUrl('https://secondhand.binaracademy.org/');
-		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/header_BannerBulanRamadhan'))
-	}
-
-	@When("User click MASUK button")
-	public void user_click_masuk_button() {
-		WebUI.click(findTestObject('Page_SecondHand/button_Masuk'))
-	}
-
-	@And("User is on login page")
-	public void user_is_on_login_page() {
-		WebUI.verifyElementVisible(findTestObject('Page_Login/header_SecondHandLogin'))
-	}
-
-	@And("User input {string} into the EMAIL field")
-	public void user_input_email_into_the_email_field(String email) {
-		WebUI.setText(findTestObject('Page_Login/inputfield_Email'), email)
-	}
-
-	@And("User input {string} into the PASSWORD field")
-	public void user_input_password_into_the_password_field(String password) {
-		WebUI.setText(findTestObject('Page_Login/inputfield_Password'), password)
-	}
-
-	@And("User clik LOGIN button")
-	public void user_clik_login_button() {
-		WebUI.click(findTestObject('Page_Login/button_MasukLogin'))
+public class Notification {
+	
+	@And("User click NOTIFICATION button")
+	public void user_click_notificaton_button() {
+		WebUI.click(findTestObject('Page_ProductDetail/button_MyNotificationProductDetail'))
 	}
 	
-	@Then("User is on SecondHand web after login")
-	public void user_is_on_secondand_web_after_login() {
-		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/header_BannerBulanRamadhan'))
+	@And("User click the first notification")
+	public void user_click_the_first_notification() {
+		WebUI.click(findTestObject('Page_SecondHand/div_Notification01'))
+	}
+	
+	@And("User verify the product name {string}")
+	public void user_click_the_first_notification(String namaProduk) {
+		WebUI.verifyElementText(findTestObject('Page_ProductDetail/txt_NamaProduk'), namaProduk)
+	//	WebUI.verifyElementVisible(findTestObject('Page_Login/header_SecondHandLogin'))
+	}
+	
+	@And("User click HOME button")
+	public void user_click_home_button() {
+		WebUI.click(findTestObject('Page_SecondHand/button_HomePage'))
 	}
 }

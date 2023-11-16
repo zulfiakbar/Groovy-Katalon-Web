@@ -44,42 +44,19 @@ import cucumber.api.java.en.When
 
 
 
-class login {
-	@Given("User is on SecondHand web")
-	public void user_is_on_secondhand_web() {
-		WebUI.openBrowser('');
-		WebUI.maximizeWindow();
-		WebUI.navigateToUrl('https://secondhand.binaracademy.org/');
-		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/header_BannerBulanRamadhan'))
-	}
-
-	@When("User click MASUK button")
-	public void user_click_masuk_button() {
-		WebUI.click(findTestObject('Page_SecondHand/button_Masuk'))
-	}
-
-	@And("User is on login page")
-	public void user_is_on_login_page() {
-		WebUI.verifyElementVisible(findTestObject('Page_Login/header_SecondHandLogin'))
-	}
-
-	@And("User input {string} into the EMAIL field")
-	public void user_input_email_into_the_email_field(String email) {
-		WebUI.setText(findTestObject('Page_Login/inputfield_Email'), email)
-	}
-
-	@And("User input {string} into the PASSWORD field")
-	public void user_input_password_into_the_password_field(String password) {
-		WebUI.setText(findTestObject('Page_Login/inputfield_Password'), password)
-	}
-
-	@And("User clik LOGIN button")
-	public void user_clik_login_button() {
-		WebUI.click(findTestObject('Page_Login/button_MasukLogin'))
+class DeleteProduct {
+	@And("User click on product card that they want to delete")
+	public void user_click_on_product_card_that_they_want_to_delete() {
+		WebUI.click(findTestObject('Page_MyProductList/div(3)_Product'))
 	}
 	
-	@Then("User is on SecondHand web after login")
-	public void user_is_on_secondand_web_after_login() {
-		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/header_BannerBulanRamadhan'))
+	@And("User click on DELETE button")
+	public void user_click_on_DELETE_button() {
+		WebUI.click(findTestObject('Page_ProductDetail/button_Delete'))
+	}
+	
+	@Then("User successfully delete the product")
+	public void user_successfully_delete_the_product() {
+		WebUI.scrollToElement(findTestObject('Page_MyProductList/div(3)_Product'), 0)
 	}
 }
