@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Next</name>
+   <name>button_Delete</name>
    <tag></tag>
-   <elementGuidId>474ce8ae-b1a0-4e80-8666-a3b7fa58538e</elementGuidId>
+   <elementGuidId>edb19d33-486f-4986-9733-c498a0ceb666</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.next_page</value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Delete')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='products']/div[11]/a</value>
+         <key>CSS</key>
+         <value>a.btn.btn-lg.btn-danger.fs-6.rounded-4.w-100.py-3.fw-bold.mt-3</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,126 +22,118 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9efea2b0-6cca-43f7-8473-a606aa8f831a</webElementGuid>
+      <webElementGuid>4549e509-52d6-419a-bd25-fdba5d7889c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-turbo-method</name>
+      <type>Main</type>
+      <value>delete</value>
+      <webElementGuid>c4a43684-05e3-46e3-ab63-220ac4270394</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>next_page</value>
-      <webElementGuid>719252d4-2a94-4f69-8189-cd08f3c2cd36</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>rel</name>
-      <type>Main</type>
-      <value>next</value>
-      <webElementGuid>00ac7497-91ea-4911-a1dc-c5e0e576fa96</webElementGuid>
+      <value>btn btn-lg btn-danger fs-6 rounded-4 w-100 py-3 fw-bold mt-3</value>
+      <webElementGuid>1345a528-3716-42c1-8c6d-87ec3df89f3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/?page=2</value>
-      <webElementGuid>edc084f5-2551-4490-9a39-f3156ac7a256</webElementGuid>
+      <value>/products/40247</value>
+      <webElementGuid>d3bd9b53-6ebb-42b9-8350-dcee1d9a4f61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Next →</value>
-      <webElementGuid>65f6cb72-38a3-4cf8-84bd-861690de2a4f</webElementGuid>
+      <value>Delete</value>
+      <webElementGuid>2c6946ff-a363-46c9-b1d6-3fb40c7bfb06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;products&quot;)/div[@class=&quot;d-flex gap-4 align-items-center justify-content-center my-5&quot;]/a[@class=&quot;next_page&quot;]</value>
-      <webElementGuid>ac72450a-5cb0-46bd-8f70-405109a20126</webElementGuid>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card p-2 rounded-4 shadow border-0&quot;]/div[@class=&quot;card-body&quot;]/a[@class=&quot;btn btn-lg btn-danger fs-6 rounded-4 w-100 py-3 fw-bold mt-3&quot;]</value>
+      <webElementGuid>24fa7319-cc91-43f7-82d3-99d36286bc8e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='products']/div[11]/a</value>
-      <webElementGuid>c10ead67-efe8-44cc-aae5-28b8d8a6dafa</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Next →')]</value>
-      <webElementGuid>f01d9e79-1ed4-41e9-bf14-800ff36ef642</webElementGuid>
+      <value>//a[contains(text(),'Delete')]</value>
+      <webElementGuid>6b5ee04a-872d-47a3-b4aa-1759a7cba8d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='← Previous'])[1]/following::a[1]</value>
-      <webElementGuid>de41c998-b29d-4b8f-a934-834f42b5c573</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::a[1]</value>
+      <webElementGuid>98e01dd4-00c5-4bdb-9338-657f5f613757</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 1.000'])[7]/following::a[1]</value>
-      <webElementGuid>0c3eef2a-8d7e-4ec5-b4c5-fc1ce65f037f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laptop'])[1]/following::a[2]</value>
+      <webElementGuid>fcfa0310-a7f3-4c5e-9871-fa0b572e4508</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jual'])[1]/preceding::a[1]</value>
-      <webElementGuid>2849a037-6457-477a-b8a9-5d35bdc3d1f1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NewUsername'])[2]/preceding::a[1]</value>
+      <webElementGuid>b4f2930a-ac18-4359-a726-22212aacdb3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
-      <webElementGuid>ad8d4411-fae2-40dc-b692-f2882be1d905</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jogja'])[2]/preceding::a[1]</value>
+      <webElementGuid>4f2b1b24-8aa2-41b6-8baf-0c054aee19da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Next →']/parent::*</value>
-      <webElementGuid>f4442653-5c74-4b3d-8ef3-82cb2486060e</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
+      <webElementGuid>db744c64-ca12-432f-a9b1-0c1ae67277fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/?page=2')]</value>
-      <webElementGuid>f4c39265-791a-4ff0-b897-bfc7071e717b</webElementGuid>
+      <value>(//a[contains(@href, '/products/40247')])[2]</value>
+      <webElementGuid>0f0ad687-4b93-415e-a35a-da2577a6a28c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[11]/a</value>
-      <webElementGuid>9ebc68aa-0750-4d91-8623-fd78c974f56d</webElementGuid>
+      <value>//a[2]</value>
+      <webElementGuid>b396c978-3f23-4068-96d1-053eb7209a00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/?page=2' and (text() = 'Next →' or . = 'Next →')]</value>
-      <webElementGuid>5aa45952-d27f-4830-b9e1-8d2e6d6e24ee</webElementGuid>
+      <value>//a[@href = '/products/40247' and (text() = 'Delete' or . = 'Delete')]</value>
+      <webElementGuid>aca27ffd-ae9d-4c68-b72a-7fc1ddb026c2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -13,6 +13,16 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Next →'])[1]/following::a[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/products/new' and (text() = '
+    
+    Jual
+' or . = '
+    
+    Jual
+')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -22,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6000a616-f64e-4316-b8df-faea23c00b17</webElementGuid>
+      <webElementGuid>e24f1bf9-b365-41e2-8d84-fd32a4ef2652</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-lg rounded-4 d-inline-flex align-items-center justify-content-space-between px-5</value>
-      <webElementGuid>aee53ede-91de-4100-890e-183a0913b406</webElementGuid>
+      <webElementGuid>13f0cfaa-ff27-4780-8015-fb67b934997f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +48,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/products/new</value>
-      <webElementGuid>611e1795-6acc-4873-a06f-70fb4642533a</webElementGuid>
+      <webElementGuid>b1df5466-598e-446a-9816-978fd5bfabb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +59,7 @@
     
     Jual
 </value>
-      <webElementGuid>5ef52d73-061a-44ec-93df-819315584634</webElementGuid>
+      <webElementGuid>ed7f1147-9e4a-49e1-b6dd-e09964501db7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/div[@class=&quot;sticky-bottom d-flex align-items-center justify-content-center py-4&quot;]/a[@class=&quot;btn btn-primary btn-lg rounded-4 d-inline-flex align-items-center justify-content-space-between px-5&quot;]</value>
-      <webElementGuid>1e10b20e-e6b9-4aa5-981e-406299d25056</webElementGuid>
+      <webElementGuid>49ae168c-9e15-4196-92c5-d42398c34ce7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next →'])[1]/following::a[1]</value>
-      <webElementGuid>71d7b886-590b-48c3-9d32-dcd5bd2e665f</webElementGuid>
+      <webElementGuid>b0ab7451-d87d-40c1-9c92-62c70231856d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='← Previous'])[1]/following::a[2]</value>
-      <webElementGuid>e36fe795-e172-4024-9fbe-befff71598e3</webElementGuid>
+      <webElementGuid>8a092315-a2e8-44ca-b4b2-90daec48e2aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
-      <webElementGuid>d28e5c48-a4b9-4188-9f89-6c51b6a339ed</webElementGuid>
+      <webElementGuid>f5039e93-b68e-4778-88a9-7351137937b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +99,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/products/new')]</value>
-      <webElementGuid>d9db3d88-79f3-44cd-8def-4650d2cb3342</webElementGuid>
+      <webElementGuid>d95ac418-e140-40c2-aa4c-63d5bae78464</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div/a</value>
-      <webElementGuid>213d7a65-7a9e-429b-89ce-ae2fe7fbb565</webElementGuid>
+      <webElementGuid>15330c44-b715-40e7-acf2-d02c80f29ab9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +121,6 @@
     
     Jual
 ')]</value>
-      <webElementGuid>dc972fd3-c4cb-4523-89ca-7d82fa5a4ff1</webElementGuid>
+      <webElementGuid>2de94566-c0f3-4cb1-bf81-9335cfe04ecf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

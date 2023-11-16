@@ -44,52 +44,19 @@ import cucumber.api.java.en.When
 
 
 
-class Register {
-	@Given("User is on SecondHand Web")
-	public void user_is_on_SecondHand_Web() {
-		WebUI.openBrowser('');
-		WebUI.maximizeWindow();
-		WebUI.navigateToUrl('https://secondhand.binaracademy.org/');
-		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/header_BannerBulanRamadhan'))
-	}
-
-	@When("User click on button MASUK")
-	public void user_click_on_button_MASUK() {
-		WebUI.click(findTestObject('Page_SecondHand/button_Masuk'))
-	}
-
-	@And("User click button DAFTAR")
-	public void user_click_button_DAFTAR() {
-		WebUI.click(findTestObject('Page_Login/link_Daftar'))
-	}
-
-	@And("User input Name {string}")
-	public void user_input_Name(String name) {
-		WebUI.setText(findTestObject('Page_Register/inputfield_name'), name)
-	}
-
-	@And("User input email {string}")
-	public void user_input_email(String email) {
-		WebUI.setText(findTestObject('Page_Register/inputfield_email'), email)
-	}
-
-	@And("User input password {string}")
-	public void user_input_password(String password) {
-		WebUI.setText(findTestObject('Page_Register/inputfield_password'), password)
-	}
-
-	@And("User click on button DAFTAR")
-	public void user_click_on_button_DAFTAR() {
-		WebUI.click(findTestObject('Page_Register/button_DaftarRegister'))
-	}
-
-	@Then("user will be redirected to home page")
-	public void user_will_be_redirected_to_home_page() {
-		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/button_Profile'))
+class DeleteProduct {
+	@And("User click on product card that they want to delete")
+	public void user_click_on_product_card_that_they_want_to_delete() {
+		WebUI.click(findTestObject('Page_MyProductList/div(3)_Product'))
 	}
 	
-	@Then("user will not be redirected to other page")
-	public void user_will_not_be_redirected_to_other_page() {
-		WebUI.verifyElementVisible(findTestObject('Page_Register/Txt_Daftar'))
+	@And("User click on DELETE button")
+	public void user_click_on_DELETE_button() {
+		WebUI.click(findTestObject('Page_ProductDetail/button_Delete'))
+	}
+	
+	@Then("User successfully delete the product")
+	public void user_successfully_delete_the_product() {
+		WebUI.scrollToElement(findTestObject('Page_MyProductList/div(3)_Product'), 0)
 	}
 }

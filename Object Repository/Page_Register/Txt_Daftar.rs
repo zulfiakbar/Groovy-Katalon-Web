@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h2_Daftar</name>
+   <name>Txt_Daftar</name>
    <tag></tag>
    <elementGuidId>d9dd19b3-4332-4890-a710-e1126d29e69a</elementGuidId>
    <selectorCollection>

@@ -42,54 +42,26 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
-
-
-class Register {
-	@Given("User is on SecondHand Web")
-	public void user_is_on_SecondHand_Web() {
-		WebUI.openBrowser('');
-		WebUI.maximizeWindow();
-		WebUI.navigateToUrl('https://secondhand.binaracademy.org/');
-		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/header_BannerBulanRamadhan'))
-	}
-
-	@When("User click on button MASUK")
-	public void user_click_on_button_MASUK() {
-		WebUI.click(findTestObject('Page_SecondHand/button_Masuk'))
-	}
-
-	@And("User click button DAFTAR")
-	public void user_click_button_DAFTAR() {
-		WebUI.click(findTestObject('Page_Login/link_Daftar'))
-	}
-
-	@And("User input Name {string}")
-	public void user_input_Name(String name) {
-		WebUI.setText(findTestObject('Page_Register/inputfield_name'), name)
-	}
-
-	@And("User input email {string}")
-	public void user_input_email(String email) {
-		WebUI.setText(findTestObject('Page_Register/inputfield_email'), email)
-	}
-
-	@And("User input password {string}")
-	public void user_input_password(String password) {
-		WebUI.setText(findTestObject('Page_Register/inputfield_password'), password)
-	}
-
-	@And("User click on button DAFTAR")
-	public void user_click_on_button_DAFTAR() {
-		WebUI.click(findTestObject('Page_Register/button_DaftarRegister'))
-	}
-
-	@Then("user will be redirected to home page")
-	public void user_will_be_redirected_to_home_page() {
-		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/button_Profile'))
+public class Notification {
+	
+	@And("User click NOTIFICATION button")
+	public void user_click_notificaton_button() {
+		WebUI.click(findTestObject('Page_ProductDetail/button_MyNotificationProductDetail'))
 	}
 	
-	@Then("user will not be redirected to other page")
-	public void user_will_not_be_redirected_to_other_page() {
-		WebUI.verifyElementVisible(findTestObject('Page_Register/Txt_Daftar'))
+	@And("User click the first notification")
+	public void user_click_the_first_notification() {
+		WebUI.click(findTestObject('Page_SecondHand/div_Notification01'))
+	}
+	
+	@And("User verify the product name {string}")
+	public void user_click_the_first_notification(String namaProduk) {
+		WebUI.verifyElementText(findTestObject('Page_ProductDetail/txt_NamaProduk'), namaProduk)
+	//	WebUI.verifyElementVisible(findTestObject('Page_Login/header_SecondHandLogin'))
+	}
+	
+	@And("User click HOME button")
+	public void user_click_home_button() {
+		WebUI.click(findTestObject('Page_SecondHand/button_HomePage'))
 	}
 }

@@ -77,4 +77,9 @@ class login {
 	public void user_clik_login_button() {
 		WebUI.click(findTestObject('Page_Login/button_MasukLogin'))
 	}
+	
+	@Then("User is on SecondHand web after login")
+	public void user_is_on_secondand_web_after_login() {
+		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/header_BannerBulanRamadhan'))
+	}
 }
