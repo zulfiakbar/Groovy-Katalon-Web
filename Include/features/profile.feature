@@ -10,37 +10,72 @@ Feature: Profile
     And User input "Test1234" into the PASSWORD field
     And User clik LOGIN button
 
-  @Profile
-  Scenario: User want to update profile and fill all profile field with valid data
-    When user click button profile
-    And user click profile account
-    And User updates profile information
-    Then Profile information should be updated successfully
-
   @Profile1
-  Scenario: User updates profile without fill Name field
-    When user click button profile
-    And user click profile account
-    And User updates profile without fill Name field
-    Then Profile information failed to update without name field
+  Scenario: User want to update profile and fill all profile field with valid data
+    When User click button profile
+    And User click profile account
+    And User click image field and select image field to upload
+    And User input "Erlangga" in to Nama field
+    And User select "Jogja" into Kota dropdown field
+    And User input "Jln Kaliurang" in to Alamat field
+    And User input "+628123456789" in to No Handphone field
+    Then User click on Simpan Button
 
   @Profile2
-  Scenario: User updates profile without select item in Kota dropdown field
-  When user click button profile
-  And user click profile account
-  And User updates profile without select item in kota dropdown field
-  Then Profile information failed to update without kota dropdown field
-  
-  @Profile3
-  Scenario: User updates profile without  fill Alamat field
-    When user click button profile
-    And user click profile account
-    And User updates profile without fill Alamat field
-    Then Profile information failed to update without Alamat field
+  Scenario: User updates profile without fill Name field
+    When User click button profile
+    And User click profile account
+    And User click image field and select image field to upload
+    And User input "" in to Nama field
+    And User select "Jogja" into Kota dropdown field
+    And User input "Jln Kaliurang" in to Alamat field
+    And User input "+628123456789" in to No Handphone field
+    Then User click on Simpan Button
 
-  @Profile
+  @Profile3
+  Scenario: User updates profile without select item in Kota dropdown field
+    When User click Home Page
+    Then User click button profile
+    And User click profile account
+    And User click image field and select image field to upload
+    And User input "Erlangga" in to Nama field
+    And User select "" into Kota dropdown field
+    And User input "Jln Kaliurang" in to Alamat field
+    And User input "+628123456789" in to No Handphone field
+    Then User click on Simpan Button
+
+  @Profile4
+  Scenario: User updates profile without  fill Alamat field
+    When User click Home Page
+    Then User click button profile
+    And User click profile account
+    And User click image field and select image field to upload
+    And User input "Erlangga" in to Nama field
+    And User select "Jogja" into Kota dropdown field
+    And User input "" in to Alamat field
+    And User input "+628123456789" in to No Handphone field
+    Then User click on Simpan Button
+
+  @Profile5
   Scenario: User updates profile without  fill NoHandphone field
-    When user click button profile
-    And user click profile account
-    And User updates profile without fill NoHandphone field
-    Then Profile information failed to update without NoHandphone field
+    When User click Home Page
+    Then User click button profile
+    And User click profile account
+    And User click image field and select image field to upload
+    And User input "Erlangga" in to Nama field
+    And User select "Jogja" into Kota dropdown field
+    And User input "Jln Kaliurang" in to Alamat field
+    And User input "" in to No Handphone field
+    Then User click on Simpan Button
+
+  @Profile6
+  Scenario: User updates profile without upload image
+    When User click Home Page
+    Then User click button profile
+    And User click profile account
+    And User click image field and select image field to upload
+    And User input "Erlangga" in to Nama field
+    And User select "Jogja" into Kota dropdown field
+    And User input "Jln Kaliurang" in to Alamat field
+    And User input "" in to No Handphone field
+    Then User click on Simpan Button
