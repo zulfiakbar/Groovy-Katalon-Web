@@ -55,13 +55,62 @@ public class Notification {
 	}
 	
 	@And("User verify the product name {string}")
-	public void user_click_the_first_notification(String namaProduk) {
+	public void user_verify_the_product_name(String namaProduk) {
 		WebUI.verifyElementText(findTestObject('Page_ProductDetail/txt_NamaProduk'), namaProduk)
-	//	WebUI.verifyElementVisible(findTestObject('Page_Login/header_SecondHandLogin'))
 	}
 	
 	@And("User click HOME button")
 	public void user_click_home_button() {
 		WebUI.click(findTestObject('Page_SecondHand/button_HomePage'))
+	}
+	
+	@And("User verify the offer product name {string}")
+	public void user_verify_the_offer_product_name(String namaProdukNotification) {
+		WebUI.verifyElementText(findTestObject('Page_Notification/header_NamaProduk01Notification'), namaProdukNotification)
+	}
+	
+	@And("User click TOLAK button")
+	public void user_click_tolak_button() {
+		WebUI.click(findTestObject('Page_Notification/button_Tolak01Notification'))
+	}
+	
+	@And("User verify the offer is rejected")
+	public void User_verify_the_offer_is_rejected() {
+		WebUI.verifyElementNotVisible(findTestObject('Page_Notification/button_Tolak01Notification'), FailureHandling.CONTINUE_ON_FAILURE)
+	}
+	
+	@And("User click TERIMA button")
+	public void user_click_terima_button() {
+		WebUI.click(findTestObject('Page_Notification/button_Terima01Notification'))
+	}
+	
+	@And("User verify the offer is accepted")
+	public void User_verify_the_offer_is_accepted() {
+		WebUI.verifyElementVisible(findTestObject('Page_Notification/button_Status01Notification'))
+	}
+	
+	@And("User click STATUS button")
+	public void user_click_status_button() {
+		WebUI.click(findTestObject('Page_Notification/button_Status01Notification'))
+	}
+	
+	@And("User click BERHASIL TERJUAL radio button")
+	public void user_click_berhasil_terjual_radio_button() {
+		WebUI.click(findTestObject('Page_Notification/button_RadioBerhasilTerjual'))
+	}
+	
+	@And("User click BATALKAN TRANSAKSI radio button")
+	public void user_click_batalkan_transaksi_radio_button() {
+		WebUI.click(findTestObject('Page_Notification/button_RadioBatalkanTransaksi'))
+	}
+	
+	@And("User click update offer status button")
+	public void user_click_update_offer_status_button() {
+		WebUI.click(findTestObject('Page_Notification/button_UpdateStatusNotification'))
+	}
+	
+	@And("User verify the product offer status is updated")
+	public void User_verify_the_product_status_is_updated() {
+		WebUI.verifyElementNotVisible(findTestObject('Page_Notification/button_Status01Notification'), FailureHandling.CONTINUE_ON_FAILURE)
 	}
 }
