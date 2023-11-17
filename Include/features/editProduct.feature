@@ -1,32 +1,18 @@
-#Author: your.email@your.domain.com
-#Keywords Summary :
-#Feature: List of scenarios.
-#Scenario: Business rule through list of steps with arguments.
-#Given: Some precondition step
-#When: Some key actions
-#Then: To observe outcomes or validation
-#And,But: To enumerate more Given,When,Then steps
-#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
-#Examples: Container for s table
-#Background: List of steps run before each of the scenarios
-#""" (Doc Strings)
-#| (Data Tables)
-#@ (Tags/Labels):To group Scenarios
-#<> (placeholder)
-#""
-## (Comments)
-#Sample Feature Definition Template
-@tag
-Feature: Title of your feature
-  I want to use this template for my feature file
+@Edit
+Feature: Edit Product
 
-  @tag1
-  Scenario Outline: Title of your scenario outline
-    Given I want to write a step with <name>
-    When I check for the <value> in step
-    Then I verify the <status> in step
-
-    Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |
+  @Edit1
+  Scenario: User want to edit product detail
+    Given User is on SecondHand web
+    When User click MASUK button
+    And User is on login page
+    And User input "erlangga@mailinator.com" into the EMAIL field
+    And User input "Test1234" into the PASSWORD field
+    And User clik LOGIN button
+    And User click MY PRODUCT LIST button
+    And User is on my product list page
+    And User click on product card that they want to edit
+    Then User is on product detail page
+    And User click on Edit button
+    And User Edit Product information
+    And User Click Terbitkan Button

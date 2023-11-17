@@ -49,12 +49,12 @@ class DeleteProduct {
 	public void user_click_on_product_card_that_they_want_to_delete() {
 		WebUI.click(findTestObject('Page_MyProductList/div(3)_Product'))
 	}
-	
+
 	@And("User click on DELETE button")
 	public void user_click_on_DELETE_button() {
 		WebUI.click(findTestObject('Page_ProductDetail/button_Delete'))
 	}
-	
+
 	@Then("User successfully delete the product")
 	public void user_successfully_delete_the_product() {
 		WebUI.scrollToElement(findTestObject('Page_MyProductList/div(3)_Product'), 0)

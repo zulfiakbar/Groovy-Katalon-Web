@@ -39,15 +39,13 @@ class profile {
 		WebUI.click(findTestObject('Object Repository/Page_SecondHand/button_Profile'))
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_SecondHand/button_Profile'), 0)
 	}
-	//}
 	@And("user click profile account")
 	public void user_click_profile_account() {
-		//	WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Profile/button_Profile_Acoount_'), 0)
 		WebUI.click(findTestObject('Object Repository/Page_Profile/button_Profile_Acoount'))
 	}
 	@And("User updates profile information")
 	public void Userupdatesprofileinformation() {
-		//uploadPhoto("C:\\Users\\User\\Pictures\\Camera Roll\\download (1).jpg", findTestObject('Object Repository/Page_Profile/image_Profile'))
+//		WebUI.uploadFile(findTestObject('Object Repository/Page_Profile/image_Profile'), System.getProperty('user.dir') + '"C:\\Users\\User\\git\\secondhand-web\\Asset\\Image\\longdress (2).jpg"')
 		WebUI.setText(findTestObject('Object Repository/Page_Profile/inputfield_NamaProfile'), 'Lenny')
 		WebUI.click(findTestObject('Object Repository/Page_Profile/select_PilihKotaProfile'))
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Profile/txt_Kota'), 30, FailureHandling.CONTINUE_ON_FAILURE)
@@ -58,6 +56,7 @@ class profile {
 	}
 	@And("User updates profile without fill Name field")
 	public void UserupdatesprofilewithoutfillNamefield() {
+//		WebUI.uploadFile(findTestObject('Object Repository/Page_Profile/image_Profile'), System.getProperty('user.dir') + '"C:\\Users\\User\\git\\secondhand-web\\Asset\\Image\\longdress (2).jpg"')
 		WebUI.clearText(findTestObject('Object Repository/Page_Profile/inputfield_NamaProfile'))
 		WebUI.click(findTestObject('Object Repository/Page_Profile/select_PilihKotaProfile'))
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Profile/txt_Kota'), 30, FailureHandling.CONTINUE_ON_FAILURE)
@@ -67,8 +66,9 @@ class profile {
 	}
 	@And("User updates profile without select item in kota dropdown field")
 	public void Userupdatesprofilewithoutselectiteminkotadropdownfield() {
+//		WebUI.uploadFile(findTestObject('Object Repository/Page_Profile/image_Profile'), System.getProperty('user.dir') + '\\Asset\\Image\\longdress (2).jpg')
 		WebUI.setText(findTestObject('Object Repository/Page_Profile/inputfield_NamaProfile'), 'Lenny1')
-		//		WebUI.selectOptionByLabel(findTestObject('Object Repository/Page_Profile/select_PilihKotaProfile'), optionToRemove, true)
+//    	WebUI.selectOptionByLabel(findTestObject('Object Repository/Page_Profile/select_PilihKotaProfile'), optionToRemove, true)
 		WebUI.click(findTestObject('Object Repository/Page_Profile/select_PilihKota'))
 		WebUI.setText(findTestObject('Object Repository/Page_Profile/inputfield_AlamatProfile'), 'Jalan Sawi No 12')
 		WebUI.setText(findTestObject('Object Repository/Page_Profile/inputfield_No HandphoneProfile'), '08227535987')
@@ -76,6 +76,7 @@ class profile {
 	}
 	@And("User updates profile without fill Alamat field")
 	public void UserupdatesprofilewithoutfillAlamatfield() {
+//		WebUI.uploadFile(findTestObject('Object Repository/Page_Profile/image_Profile'), System.getProperty('user.dir') + '\\Asset\\Image\\longdress (2).jpg')
 		WebUI.setText(findTestObject('Object Repository/Page_Profile/inputfield_NamaProfile'), 'Lenny2')
 		WebUI.click(findTestObject('Object Repository/Page_Profile/select_PilihKotaProfile'))
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Profile/txt_Kota'), 30, FailureHandling.CONTINUE_ON_FAILURE)
@@ -85,6 +86,7 @@ class profile {
 	}
 	@And("User updates profile without fill NoHandphone field")
 	public void UserupdatesprofilewithoutfillNoHandphonefield() {
+//		WebUI.uploadFile(findTestObject('Object Repository/Page_Profile/image_Profile'), System.getProperty('user.dir') + '\\Asset\\Image\\longdress (2).jpg')
 		WebUI.setText(findTestObject('Object Repository/Page_Profile/inputfield_NamaProfile'), 'Lenny3')
 		WebUI.click(findTestObject('Object Repository/Page_Profile/select_PilihKotaProfile'))
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Profile/txt_Kota'), 30, FailureHandling.CONTINUE_ON_FAILURE)
