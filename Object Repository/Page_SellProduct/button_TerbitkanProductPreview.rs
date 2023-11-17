@@ -6,12 +6,12 @@
    <elementGuidId>adb4bcc8-8fcc-428a-b8f4-2d000b3aa23b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;commit&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='commit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;commit&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

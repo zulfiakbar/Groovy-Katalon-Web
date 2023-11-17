@@ -6,12 +6,12 @@
    <elementGuidId>6686ca51-1e76-46e1-955c-71d04f3aa0bd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>section.pt-5.mt-5</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Product was successfully created.'])[1]/following::section[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>section.pt-5.mt-5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
