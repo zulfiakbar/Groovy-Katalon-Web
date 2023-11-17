@@ -105,7 +105,7 @@ class SellProduct {
 
 	@Then("User redirected to preview product page")
 	public void user_is_redirected_to_previewProduct_page() {
-		WebUI.verifyElementVisible(findTestObject('Page_SellProduct/page_PreviewProduct/section_PreviewProduct'))
+		WebUI.verifyElementVisible(findTestObject('Page_SellProduct/section_PreviewProduct'))
 	}
 
 	@And("User click on PREVIEW button")
@@ -115,7 +115,7 @@ class SellProduct {
 
 	@And("User click on TERBITKAN button on Preview Page")
 	public void user_click_terbitkanProductPreview_button() {
-		WebUI.click(findTestObject('Page_SellProduct/page_PreviewProduct/button_TerbitkanProductPreview'))
+		WebUI.click(findTestObject('Page_SellProduct/button_TerbitkanProductPreview'))
 	}
 
 	@Then("Alert name cant be blank show up")
@@ -137,4 +137,10 @@ class SellProduct {
 	public void alert_description_cant_be_blank_showup() {
 		WebUI.verifyElementVisible(findTestObject('Page_SellProduct/txt_AlertDescription'))
 	}
+	
+	@Then("User verify alert login to continue show up")
+	public void alert_login_to_continue_showup() {
+		WebUI.verifyElementVisible(findTestObject('Page_Login/txt_AlertLogin'))
+	}
+	
 }

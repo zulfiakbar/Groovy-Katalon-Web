@@ -19,6 +19,13 @@ Feature: Sell Product
     And User input image into IMAGE field
     And User click on TERBITKAN button
     Then User is on product detail page
+    
+  @SellProductAsGuest @SellProductNegative
+  Scenario: User sell product as a guest user
+    Given User is on SecondHand web
+    When User click on JUAL button
+    And User is on login page
+    Then User verify alert login to continue show up
 
   @SellProductWithIncompleteProfileData @SellProductNegative
   Scenario: Sell product with incomplete profile data user
@@ -73,7 +80,7 @@ Feature: Sell Product
     Then Alert name cant be blank show up
 
   @SellProductWithoutInputProductPrice @SellProductNegative
-  Scenario: User sell product without input product name
+  Scenario: User sell product without input product price
     Given User is on SecondHand web
     When User click MASUK button
     And User is on login page
@@ -92,7 +99,7 @@ Feature: Sell Product
     Then Alert price cant be blank show up
 
   @SellProductWithoutInputProductCategory @SellProductNegative
-  Scenario: User sell product without input product name
+  Scenario: User sell product without input product category
     Given User is on SecondHand web
     When User click MASUK button
     And User is on login page
@@ -111,7 +118,7 @@ Feature: Sell Product
     Then Alert category cant be blank show up
 
   @SellProductWithoutInputProductDescription @SellProductNegative
-  Scenario: User sell product without input product name
+  Scenario: User sell product without input product description
     Given User is on SecondHand web
     When User click MASUK button
     And User is on login page
@@ -130,7 +137,7 @@ Feature: Sell Product
     Then Alert description cant be blank show up
 
   @SellProductWithValidInputAndMultipleImage @SellProductPositive
-  Scenario: User sell product with input valid
+  Scenario: User sell product with input valid and multiple image
     Given User is on SecondHand web
     When User click MASUK button
     And User is on login page
