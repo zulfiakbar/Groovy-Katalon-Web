@@ -24,3 +24,5 @@ Runner.groovy
 /.settings/
 /.classpath
 .svn/
+
+/Include/scripts/groovy/Runner.groovy
