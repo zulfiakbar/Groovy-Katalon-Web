@@ -26,3 +26,5 @@ Runner.groovy
 .svn/
 
 /Include/scripts/groovy/Runner.groovy
+
+/.cache/Keywords/..__Include__scripts__groovy__Runner_sample
