@@ -56,7 +56,14 @@ class productList {
 
 	@And("User scroll down")
 	public void user_scroll_down() {
-		WebUI.scrollToElement(findTestObject('Page_SecondHand/button_Jual'), 5)
+		WebUI.delay(3)
+		WebUI.executeJavaScript('window.scrollTo(0, document.body.scrollHeight);', null)
+	}
+
+	@And("User scroll down to categories")
+	public void user_scroll_down_to_categories() {
+		WebUI.delay(3)
+		WebUI.executeJavaScript('window.scrollTo(0, 150);', null)
 	}
 
 	@And("User click on NEXT button")
@@ -72,7 +79,6 @@ class productList {
 	public void the_user_is_on_the_Home_page_two() {
 		WebUI.openBrowser('');
 		WebUI.maximizeWindow();
-		WebUI.navigateToUrl('https://secondhand.binaracademy.org/');
 		WebUI.navigateToUrl('https://secondhand.binaracademy.org/?page=2');
 	}
 
@@ -83,7 +89,7 @@ class productList {
 
 	@And("User click on HOBI button in TELUSURI KATEGORI section")
 	public void user_click_on_HOBI_button_in_TELUSURI_KATEGORI_section() {
-		WebUI.click(findTestObject('PageSeconHand/button_CtgHobi'))
+		WebUI.click(findTestObject('Page_SecondHand/button_CtgHobi'))
 	}
 
 	@Then("Verify that product list is shown based HOBI categories")
