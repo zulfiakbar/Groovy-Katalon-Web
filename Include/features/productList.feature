@@ -25,7 +25,7 @@ Feature: productList
   @PRL004
   Scenario: User want to see previous product list page
     Given the user is on the Home page
-    When User scroll down
+    When User scroll down to categories
     And User click on HOBI button in TELUSURI KATEGORI section
     Then Verify that product list is shown based HOBI categories
 
