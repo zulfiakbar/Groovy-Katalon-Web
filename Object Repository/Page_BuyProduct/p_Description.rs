@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Description</name>
+   <tag></tag>
+   <elementGuidId>3d7e3ca2-a7b9-414f-a85a-f418f9192bcf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='offerModal']/div/form/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-black-50.fs-5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>564ff7e2-d676-416f-bafb-44179fb21532</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-black-50 fs-5</value>
+      <webElementGuid>f7a2f26c-61d4-4ce8-85cd-bb758c4bc5c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Harga tawaranmu akan diketahui penual, jika penjual cocok kamu akan segera dihubungi penjual.</value>
+      <webElementGuid>6c619a14-add5-4f40-a7e0-da63e7d81701</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;offerModal&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/form[@class=&quot;modal-content px-4 py-2&quot;]/div[@class=&quot;modal-body&quot;]/p[@class=&quot;text-black-50 fs-5&quot;]</value>
+      <webElementGuid>0a6d57f4-8e2d-42fc-bb07-d24c954dd538</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='offerModal']/div/form/div[2]/p</value>
+      <webElementGuid>41cf15f2-0f6a-44a2-ada9-6512fdeb6309</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masukkan Harga Tawarmu'])[1]/following::p[1]</value>
+      <webElementGuid>55f829ff-03ba-4a5d-a289-239cb5e5b303</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta'])[1]/following::p[1]</value>
+      <webElementGuid>f5be7a95-803e-4688-9391-980545871ccc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mouse Logitech MX Master 3 005'])[2]/preceding::p[1]</value>
+      <webElementGuid>cbfb48e6-43ac-4a8e-9574-d170a5dba1ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 1.500.000'])[2]/preceding::p[1]</value>
+      <webElementGuid>a4ca2193-09dc-4b11-b778-5749a25e390f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Harga tawaranmu akan diketahui penual, jika penjual cocok kamu akan segera dihubungi penjual.']/parent::*</value>
+      <webElementGuid>fec7cbbf-2d5e-4cc2-a03c-103e554dd9fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p</value>
+      <webElementGuid>9dd2e94c-aafc-4d76-8c5f-e1042dacc4a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Harga tawaranmu akan diketahui penual, jika penjual cocok kamu akan segera dihubungi penjual.' or . = 'Harga tawaranmu akan diketahui penual, jika penjual cocok kamu akan segera dihubungi penjual.')]</value>
+      <webElementGuid>adb2fa63-cd36-4391-940b-b4099130e4c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

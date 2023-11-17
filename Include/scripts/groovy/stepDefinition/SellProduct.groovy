@@ -55,6 +55,11 @@ class SellProduct {
 	public void user_click_jual_button() {
 		WebUI.click(findTestObject('Page_SecondHand/button_Jual'))
 	}
+	
+	@Then("User is on sell product page")
+	public void user_is_on_sellProduct_page() {
+		WebUI.verifyElementVisible(findTestObject('Page_SellProduct/txt_NamaProduk'))
+	}
 
 	@And("User input {string} into NAMA PRODUK field")
 	public void user_input_namaProduk_into_the_namaProduk_field(String namaProduk) {
@@ -81,9 +86,55 @@ class SellProduct {
 	public void user_input_imageProduk_into_the_imageProduk_field() {
 		WebUI.uploadFile(findTestObject('Page_SellProduct/inputfield_ImageProduk'), System.getProperty('user.dir') + '\\Asset\\Image\\rog.png')
 	}
+	
+	@And("User input multiple image into IMAGE field")
+	public void user_input_multiple_imageProduk_into_the_imageProduk_field() {
+		String path1 = System.getProperty('user.dir') + '\\Asset\\Image\\rog.png'; String path2 = System.getProperty('user.dir') + '\\Asset\\Image\\msi.png'; String finalPath = path1 + "\n" + path2;
+		WebUI.uploadFile(findTestObject('Page_SellProduct/inputfield_ImageProduk'), finalPath)
+	}
 
+	@Then("User is on update profile page")
+	public void user_is_on_updateProfile_page() {
+		WebUI.verifyElementVisible(findTestObject('Page_Profile/inputfield_NamaProfile'))
+	}
+	
 	@And("User click on TERBITKAN button")
 	public void user_click_terbitkan_button() {
 		WebUI.click(findTestObject('Page_SellProduct/button_Terbitkan'))
+	}
+	
+	@Then("User redirected to preview product page")
+	public void user_is_redirected_to_previewProduct_page() {
+		WebUI.verifyElementVisible(findTestObject('Page_SellProduct/page_PreviewProduct/section_PreviewProduct'))
+	}
+	
+	@And("User click on PREVIEW button")
+	public void user_click_preview_button() {
+		WebUI.click(findTestObject('Page_SellProduct/button_Preview'))
+	}
+	
+	@And("User click on TERBITKAN button on Preview Page")
+	public void user_click_terbitkanProductPreview_button() {
+		WebUI.click(findTestObject('Page_SellProduct/page_PreviewProduct/button_TerbitkanProductPreview'))
+	}
+	
+	@Then("Alert name cant be blank show up")
+	public void alert_name_cant_be_blank_showup() {
+		WebUI.verifyElementVisible(findTestObject('Page_SellProduct/txt_AlertName'))
+	}
+	
+	@Then("Alert price cant be blank show up")
+	public void alert_price_cant_be_blank_showup() {
+		WebUI.verifyElementVisible(findTestObject('Page_SellProduct/txt_AlertPrice'))
+	}
+	
+	@Then("Alert category cant be blank show up")
+	public void alert_category_cant_be_blank_showup() {
+		WebUI.verifyElementVisible(findTestObject('Page_SellProduct/txt_AlertCategory'))
+	}
+	
+	@Then("Alert description cant be blank show up")
+	public void alert_description_cant_be_blank_showup() {
+		WebUI.verifyElementVisible(findTestObject('Page_SellProduct/txt_AlertDescription'))
 	}
 }

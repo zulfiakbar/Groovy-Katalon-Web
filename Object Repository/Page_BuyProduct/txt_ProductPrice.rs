@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_ProductPrice</name>
+   <tag></tag>
+   <elementGuidId>4650a99f-049f-498f-b44a-c0772f6b8866</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='offerModal']/div/form/div[2]/div/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.card.bg-light.border-0.rounded-4.shadow-sm.px-4.py-2.mb-4 > div.d-flex.align-items-center > div.card-body > div.fs-6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>32704ca8-6387-4589-8dfe-eed5006f4b20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fs-6</value>
+      <webElementGuid>75fbb645-1fa8-4dd6-b1db-96a80a40aff0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rp 1.500.000</value>
+      <webElementGuid>c636c177-64f2-4de3-a98b-12009a7d7e73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;offerModal&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/form[@class=&quot;modal-content px-4 py-2&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;card bg-light border-0 rounded-4 shadow-sm px-4 py-2 mb-4&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;fs-6&quot;]</value>
+      <webElementGuid>88667cf1-fde0-4fdd-9ed1-6de9eac9ae8c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='offerModal']/div/form/div[2]/div/div/div/div[2]</value>
+      <webElementGuid>a31ff570-c6e1-47b9-8760-c9704676c0ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mouse Logitech MX Master 3 005'])[2]/following::div[1]</value>
+      <webElementGuid>e35f0660-978f-4c63-8c3a-2de4bd0631b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masukkan Harga Tawarmu'])[1]/following::div[5]</value>
+      <webElementGuid>9c7c0c9e-794a-4ede-966b-7d2ec1bbeee9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga Tawar'])[1]/preceding::div[1]</value>
+      <webElementGuid>ed8fd93e-515c-4d29-9771-1a8c3b2908f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[2]/div/div/div/div[2]</value>
+      <webElementGuid>2c0bef7e-326d-4d4f-8e78-003f08b921f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Rp 1.500.000' or . = 'Rp 1.500.000')]</value>
+      <webElementGuid>082ff037-ad31-4957-bf32-0de24dd8a682</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
