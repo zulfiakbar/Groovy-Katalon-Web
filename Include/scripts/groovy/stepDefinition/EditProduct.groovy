@@ -45,21 +45,32 @@ import cucumber.api.java.en.When
 
 
 class EditProduct {
-	/**
-	 * The step definitions below match with Katalon sample Gherkin steps
-	 */
-	@Given("I want to write a step with (.*)")
-	def I_want_to_write_a_step_with_name(String name) {
-		println name
+	@And("User click on product card that they want to edit")
+	public void user_click_on_product_card_that_they_want_to_edit() {
+		WebUI.click(findTestObject('Page_EditProduct/button_EditCard'))
 	}
 
-	@When("I check for the (\\d+) in step")
-	def I_check_for_the_value_in_step(int value) {
-		println value
+	@And("User click on Edit button")
+	public void user_click_on_Edit_button() {
+		WebUI.click(findTestObject('Page_EditProduct/button_Edit'))
 	}
 
-	@Then("I verify the (.*) in step")
-	def I_verify_the_status_in_step(String status) {
-		println status
+	@Then("User successfully edit the product")
+	public void user_successfully_edit_the_product() {
+		WebUI.scrollToElement(findTestObject('Page_EditProduct/button_EditCard'), 0)
+	}
+	@And("User Edit Product information")
+	public void UserEditProductinformation() {
+		WebUI.setText(findTestObject('Page_EditProduct/inputfield_NamaProduk'), 'Long Dress Wanita')
+		WebUI.setText(findTestObject('Page_EditProduct/inputfield_HargaProduk'), '90000000')
+		WebUI.click(findTestObject('Page_EditProduct/select_KategoriProduk'))
+		WebUI.waitForElementPresent(findTestObject('Page_EditProduct/txt_HargaProduk'), 30, FailureHandling.CONTINUE_ON_FAILURE)
+		WebUI.setText(findTestObject('Page_EditProduct/inputfield_DeskripsiProduk'), 'ini deskripsi ya')
+//		WebUI.uploadFile(findTestObject('Page_EditProduct/image_Profile'), System.getProperty('user.dir') + '\\Asset\\Image\\rog.png')
+
+	}
+	@And ("User Click Terbitkan Button")
+	public void UserClickButtonTerbitkan() {
+		WebUI.click(findTestObject('Page_EditProduct/button_TerbitkanProduk'))
 	}
 }
