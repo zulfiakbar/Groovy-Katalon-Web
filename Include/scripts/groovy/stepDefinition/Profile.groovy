@@ -34,53 +34,51 @@ import groovy.transform.ConditionalInterrupt
 
 
 class profile {
-	
+
 	@When ("User click Home Page")
 	public void UserclickHomePage() {
 		WebUI.click(findTestObject('Object Repository/Page_SecondHand/button_HomePage'))
 	}
-	
+
 	@Then("User click button profile")
 	public void Userclickbuttonprofile() {
 		WebUI.click(findTestObject('Object Repository/Page_SecondHand/button_Profile'))
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_SecondHand/button_Profile'), 0)
 	}
-	
+
 	@And("User click profile account")
 	public void Userclickprofileaccount() {
 		WebUI.click(findTestObject('Object Repository/Page_Profile/button_Profile_Acoount'))
 	}
-	
+
 	@And("User click image field and select image field to upload")
 	public void Userclickimagefieldandselectimagefieldtoupload() {
 		WebUI.uploadFile(findTestObject('Object Repository/Page_Profile/img_Profile'), System.getProperty('user.dir') + '\\Asset\\Image\\longdress (2).jpg')
 	}
-	
+
 	@And("User input {string} in to Nama field")
 	public void  UserinputNamaProfileintoNamafield(String NamaProfile) {
-		WebUI.setText(findTestObject('Object Repository/Page_Profile/inputfield_NamaProfile'),NamaProfile )	
+		WebUI.setText(findTestObject('Object Repository/Page_Profile/inputfield_NamaProfile'),NamaProfile )
 	}
-	
+
 	@And("User select {string} into Kota dropdown field")
-		public void UserselectkategoriProdukintokotadropdownfield(String KotaProfile) {
+	public void UserselectkategoriProdukintokotadropdownfield(String KotaProfile) {
 		WebUI.click(findTestObject('Object Repository/Page_Profile/select_PilihKotaProfile'))
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Profile/txt_Kota'),30, FailureHandling.CONTINUE_ON_FAILURE)
 	}
-	
+
 	@And("User input {string} in to Alamat field")
 	public void  UserinputNamaProfileintoAlamatfield(String AlamatProfile) {
 		WebUI.setText(findTestObject('Object Repository/Page_Profile/inputfield_AlamatProfile'), AlamatProfile)
 	}
-	
+
 	@And("User input {string} in to No Handphone field")
 	public void  UserinputNamaProfileintoNoHandphonefield(String NoHandphone) {
 		WebUI.setText(findTestObject('Object Repository/Page_Profile/inputfield_No HandphoneProfile'), NoHandphone)
 	}
-	
+
 	@Then("User click on Simpan Button")
 	public void UserclickonSimpanButton() {
 		WebUI.click(findTestObject('Object Repository/Page_Profile/button_SimpanProfile'))
 	}
-	
 }
-	

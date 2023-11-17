@@ -66,7 +66,7 @@ class EditProduct {
 		WebUI.click(findTestObject('Page_EditProduct/select_KategoriProduk'))
 		WebUI.waitForElementPresent(findTestObject('Page_EditProduct/txt_HargaProduk'), 30, FailureHandling.CONTINUE_ON_FAILURE)
 		WebUI.setText(findTestObject('Page_EditProduct/inputfield_DeskripsiProduk'), 'ini deskripsi ya')
-		WebUI.uploadFile(findTestObject('Page_EditProduct/img_ImageField'), System.getProperty('user.dir') + '\\Asset\\Image\\longdress (1).jpg')
+		WebUI.uploadFile(findTestObject('Object Repository/Page_EditProduct/img_Product'), System.getProperty('user.dir') + '\\Asset\\Image\\longdress (1).jpg')
 
 	}
 	@And ("User Click Terbitkan Button")
