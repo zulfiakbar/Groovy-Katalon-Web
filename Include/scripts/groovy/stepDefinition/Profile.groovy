@@ -39,15 +39,13 @@ class profile {
 		WebUI.click(findTestObject('Object Repository/Page_SecondHand/button_Profile'))
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_SecondHand/button_Profile'), 0)
 	}
-	//}
 	@And("user click profile account")
 	public void user_click_profile_account() {
-		//	WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Profile/button_Profile_Acoount_'), 0)
 		WebUI.click(findTestObject('Object Repository/Page_Profile/button_Profile_Acoount'))
 	}
 	@And("User updates profile information")
 	public void Userupdatesprofileinformation() {
-		//uploadPhoto("C:\\Users\\User\\Pictures\\Camera Roll\\download (1).jpg", findTestObject('Object Repository/Page_Profile/image_Profile'))
+		WebUI.uploadFile(findTestObject('Object Repository/Page_Profile/image_Profile'), System.getProperty('user.dir') + '\\Asset\\Image\\rog.png')
 		WebUI.setText(findTestObject('Object Repository/Page_Profile/inputfield_NamaProfile'), 'Lenny')
 		WebUI.click(findTestObject('Object Repository/Page_Profile/select_PilihKotaProfile'))
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Profile/txt_Kota'), 30, FailureHandling.CONTINUE_ON_FAILURE)
