@@ -1,4 +1,4 @@
-@PRLGG
+@productList
 Feature: productList
 
   @PRL001

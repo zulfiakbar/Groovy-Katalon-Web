@@ -56,7 +56,8 @@ class productList {
 
 	@And("User scroll down")
 	public void user_scroll_down() {
-		WebUI.delay(3)
+		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/header_BannerBulanRamadhan'))
+		WebUI.delay(2)
 		WebUI.executeJavaScript('window.scrollTo(0, document.body.scrollHeight);', null)
 	}
 
