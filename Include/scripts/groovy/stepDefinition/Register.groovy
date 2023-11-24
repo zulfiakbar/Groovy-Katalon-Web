@@ -87,7 +87,7 @@ class Register {
 	public void user_will_be_redirected_to_home_page() {
 		WebUI.verifyElementVisible(findTestObject('Page_SecondHand/button_Profile'))
 	}
-	
+
 	@Then("user will not be redirected to other page")
 	public void user_will_not_be_redirected_to_other_page() {
 		WebUI.verifyElementVisible(findTestObject('Page_Register/Txt_Daftar'))
