@@ -6,6 +6,10 @@
    <elementGuidId>14f0bb4b-e5e6-4685-abbe-83870a0ccaff</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Daftar Jual Saya' or . = 'Daftar Jual Saya')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>h3.fw-bold.my-5</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Jogja'])[1]/following::h3[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>fcbd75a8-f2e5-494a-b965-363ec1177459</webElementGuid>
+      <webElementGuid>4f018e93-7cd2-421b-b999-34adbfb1bc67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fw-bold my-5</value>
-      <webElementGuid>4786dc3a-6b69-477d-8b1b-437924528f9d</webElementGuid>
+      <webElementGuid>1b98874a-fb99-4cdb-a175-f41b870e2581</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Daftar Jual Saya</value>
-      <webElementGuid>8b903d15-b4dd-424a-a861-e7751b946a22</webElementGuid>
+      <webElementGuid>d68a9454-6499-414a-aa0f-1f2fd4ffc803</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/div[@class=&quot;container&quot;]/h3[@class=&quot;fw-bold my-5&quot;]</value>
-      <webElementGuid>360333bd-ed98-4707-8f44-3c7e6c42e2db</webElementGuid>
+      <webElementGuid>9b22d3a0-213c-410b-b0b3-6d46297c8bdd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jogja'])[1]/following::h3[1]</value>
-      <webElementGuid>90d0d1b7-00a7-43ee-88f5-f14fcab598f9</webElementGuid>
+      <webElementGuid>8d2e53d3-abf5-42a2-a2e4-7e398c7e1188</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Erlangga'])[2]/preceding::h3[1]</value>
-      <webElementGuid>e39a2bb5-4e94-4041-a03f-471b29a82d99</webElementGuid>
+      <webElementGuid>f4da4f73-fe2e-422f-b9c5-2cac699546b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jogja'])[2]/preceding::h3[1]</value>
-      <webElementGuid>2bff7dc1-eab8-4e30-a044-3ffd76fb4d7f</webElementGuid>
+      <webElementGuid>e21bf6d8-45ad-414b-b168-6b68f1a2c69b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Daftar Jual Saya']/parent::*</value>
-      <webElementGuid>485c0dd8-6423-4b8c-aefb-2bd123616097</webElementGuid>
+      <webElementGuid>272c757d-23d8-4c50-a5d8-e4205eac45d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h3</value>
-      <webElementGuid>c7ee9780-0a39-4a30-9215-bf57981efe2e</webElementGuid>
+      <webElementGuid>85797d3d-534b-47b5-9df1-ad736e92383a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h3[(text() = 'Daftar Jual Saya' or . = 'Daftar Jual Saya')]</value>
-      <webElementGuid>ac1b28f5-3a10-48a2-a452-3ade23198e4d</webElementGuid>
+      <webElementGuid>f7576f5c-bc93-486a-9786-2f5dbeb9b4fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
