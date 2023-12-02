@@ -1,4 +1,4 @@
-@productList
+@ProductList
 Feature: productList
 
   @PRL001
@@ -19,7 +19,7 @@ Feature: productList
   Scenario: User want to see previous product list when user on first page of product list and can't click previous page button
     Given the user is on the Home page
     When User scroll down
-    When User see previous button is disabled
+    Then User see previous button is disabled
     Then can't click previous button
 
   @PRL004
