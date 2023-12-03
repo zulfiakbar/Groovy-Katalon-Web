@@ -6,8 +6,8 @@ Feature: Register
     Given User is on SecondHand Web
     When User click on button MASUK
     And User click button DAFTAR
-    And User input Name "logitfthgh"
-    And User input email "logfgcghghv@mailinator.com"
+    And User input Name "makaasadjaaa"
+    And User input email "reisnauw@mailinator.com"
     And User input password "Test1234"
     And User click on button DAFTAR
     Then user will be redirected to home page

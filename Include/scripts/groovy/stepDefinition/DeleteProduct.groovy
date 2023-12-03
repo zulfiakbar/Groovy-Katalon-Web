@@ -47,7 +47,7 @@ import cucumber.api.java.en.When
 class DeleteProduct {
 	@And("User click on product card that they want to delete")
 	public void user_click_on_product_card_that_they_want_to_delete() {
-		WebUI.click(findTestObject('Page_MyProductList/div(3)_Product'))
+		WebUI.click(findTestObject('Page_MyProductList/div_Product2'))
 	}
 
 	@And("User click on DELETE button")
@@ -57,6 +57,6 @@ class DeleteProduct {
 
 	@Then("User successfully delete the product")
 	public void user_successfully_delete_the_product() {
-		WebUI.scrollToElement(findTestObject('Page_MyProductList/div(3)_Product'), 0)
+		WebUI.scrollToElement(findTestObject('Page_MyProductList/div_Product2'), 0)
 	}
 }
